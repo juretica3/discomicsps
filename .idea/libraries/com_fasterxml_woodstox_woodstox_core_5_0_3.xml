@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.fasterxml.woodstox:woodstox-core:5.0.3" type="repository">
+    <properties maven-id="com.fasterxml.woodstox:woodstox-core:5.0.3" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/woodstox/woodstox-core/5.0.3/woodstox-core-5.0.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

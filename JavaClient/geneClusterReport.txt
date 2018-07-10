@@ -1,0 +1,151 @@
+Gene Cluster 4	Enrichment Score: 3.4788348355635237
+ID	Gene Name
+34623_at	defensin, alpha 5, Paneth cell-specific
+31506_s_at, 31793_at	defensin, alpha 1
+34546_at	defensin, alpha 4, corticostatin
+
+Gene Cluster 23	Enrichment Score: 2.376866531271374
+ID	Gene Name
+33530_at	carcinoembryonic antigen-related cell adhesion molecule 8
+37968_at	natural cytotoxicity triggering receptor 3
+35956_s_at	pregnancy specific beta-1-glycoprotein 7; pregnancy specific beta-1-glycoprotein 8; pregnancy specific beta-1-glycoprotein 4
+1112_g_at	neural cell adhesion molecule 1
+32469_at	carcinoembryonic antigen-related cell adhesion molecule 3
+31987_at	kin of IRRE like (Drosophila)
+33077_at	sidekick homolog 1, cell adhesion molecule (chicken); hypothetical LOC730351
+35091_at, 35090_g_at	neuregulin 2
+35566_f_at	immunoglobulin heavy constant gamma 1 (G1m marker); immunoglobulin heavy constant mu; immunoglobulin heavy variable 3-7; immunoglobulin heavy constant gamma 3 (G3m marker); immunoglobulin heavy variable 3-11 (gene/pseudogene); immunoglobulin heavy variable 4-31; immunoglobulin heavy locus
+31512_at	similar to hCG26659; immunoglobulin kappa constant; similar to Ig kappa chain V-I region HK102 precursor
+
+Gene Cluster 6	Enrichment Score: 2.1281289669739256
+ID	Gene Name
+31525_s_at	hemoglobin, alpha 2; hemoglobin, alpha 1
+31687_f_at	hemoglobin, beta
+33516_at	hemoglobin, delta
+
+Gene Cluster 18	Enrichment Score: 2.045026212934408
+ID	Gene Name
+32469_at	carcinoembryonic antigen-related cell adhesion molecule 3
+37408_at	mannose receptor, C type 2
+36378_at	uroplakin 1A
+
+Gene Cluster 15	Enrichment Score: 1.8283571429032563
+ID	Gene Name
+36436_at	leukocyte cell-derived chemotaxin 2
+37454_at	chemokine (C-C motif) ligand 13
+1403_s_at	chemokine (C-C motif) ligand 5
+36703_at	chemokine (C-C motif) ligand 25
+
+Gene Cluster 7	Enrichment Score: 1.7180066526958038
+ID	Gene Name
+36766_at	ribonuclease, RNase A family, 2 (liver, eosinophil-derived neurotoxin)
+33979_at	ribonuclease, RNase A family, 3 (eosinophil cationic protein)
+
+Gene Cluster 13	Enrichment Score: 1.6799268238303817
+ID	Gene Name
+1890_at	growth differentiation factor 15
+35915_at	inhibin, beta C
+
+Gene Cluster 10	Enrichment Score: 1.618028063558598
+ID	Gene Name
+33684_at	wingless-type MMTV integration site family, member 2B
+2090_i_at	wingless-type MMTV integration site family, member 6
+
+Gene Cluster 17	Enrichment Score: 1.3530003673774624
+ID	Gene Name
+40350_at	ADAM metallopeptidase domain 23
+38926_at	integrin, beta 5
+37172_at	carboxypeptidase B2 (plasma)
+
+Gene Cluster 1	Enrichment Score: 1.2084520343399152
+ID	Gene Name
+38229_at	cytochrome P450, family 3, subfamily A, polypeptide 5
+34453_at	cytochrome P450, family 2, subfamily B, polypeptide 7 pseudogene 1
+1391_s_at	cytochrome P450, family 4, subfamily A, polypeptide 11
+
+Gene Cluster 14	Enrichment Score: 0.876920852864712
+ID	Gene Name
+37953_s_at	amiloride-sensitive cation channel 2, neuronal
+32084_at	solute carrier family 22 (organic cation/carnitine transporter), member 5
+35121_at	solute carrier family 6 (neurotransmitter transporter, taurine), member 6
+34436_at	solute carrier family 17 (sodium phosphate), member 3
+40317_at	amiloride-sensitive cation channel 1, neuronal
+37097_at	solute carrier family 17 (sodium phosphate), member 1
+
+Gene Cluster 22	Enrichment Score: 0.8475677729288237
+ID	Gene Name
+34467_g_at	5-hydroxytryptamine (serotonin) receptor 4
+822_s_at	CASP2 and RIPK1 domain containing adaptor with death domain
+33293_at	Fas apoptotic inhibitory molecule 2
+1331_s_at	tumor necrosis factor receptor superfamily, member 25
+
+Gene Cluster 9	Enrichment Score: 0.7466304268808844
+ID	Gene Name
+37096_at	elastase, neutrophil expressed
+33963_at	azurocidin 1
+
+Gene Cluster 20	Enrichment Score: 0.7103257207991653
+ID	Gene Name
+1575_at	ATP-binding cassette, sub-family B (MDR/TAP), member 1
+33685_at	ATPase, class I, type 8B, member 3
+40294_at	ATP-binding cassette, sub-family B (MDR/TAP), member 9
+39469_s_at	ATPase, aminophospholipid transporter-like, class I, type 8A, member 2
+32439_at	ATPase, H+/K+ exchanging, beta polypeptide
+
+Gene Cluster 3	Enrichment Score: 0.7088965909800337
+ID	Gene Name
+967_g_at, 966_at	RAD54-like (S. cerevisiae)
+37814_g_at	DEAD (Asp-Glu-Ala-Asp) box polypeptide 51
+36234_at	similar to eukaryotic translation initiation factor 4A; small nucleolar RNA, H/ACA box 67; eukaryotic translation initiation factor 4A, isoform 1
+
+Gene Cluster 21	Enrichment Score: 0.6774867066379373
+ID	Gene Name
+32680_at	TRAF2 and NCK interacting kinase
+1786_at	c-mer proto-oncogene tyrosine kinase
+31576_at	mevalonate kinase
+33246_at	mitogen-activated protein kinase 13
+1355_g_at	neurotrophic tyrosine kinase, receptor, type 2
+
+Gene Cluster 19	Enrichment Score: 0.6088448316174729
+ID	Gene Name
+606_at	Rho family GTPase 2
+37905_r_at	guanine nucleotide binding protein-like 1
+33371_s_at	RAB31, member RAS oncogene family
+919_at	guanine nucleotide binding protein (G protein) alpha 12
+
+Gene Cluster 8	Enrichment Score: 0.448953509717051
+ID	Gene Name
+38948_at	protein phosphatase 1, regulatory (inhibitor) subunit 3D
+34249_at	epilepsy, progressive myoclonus type 2A, Lafora disease (laforin)
+
+Gene Cluster 12	Enrichment Score: 0.3050691364935291
+ID	Gene Name
+37711_at	myocyte enhancer factor 2C
+34720_at	nuclear factor I/B
+39187_at	runt-related transcription factor 2
+
+Gene Cluster 16	Enrichment Score: 0.20261210607031357
+ID	Gene Name
+41489_at	similar to transducin-like enhancer of split 1 (E(sp1) homolog, Drosophila); transducin-like enhancer of split 1 (E(sp1) homolog, Drosophila)
+40790_at	basic helix-loop-helix family, member e40
+39698_at	HOP homeobox
+36317_at	coronin, actin binding protein, 2A
+
+Gene Cluster 11	Enrichment Score: 0.19820681302618728
+ID	Gene Name
+40959_at	pleckstrin homology domain containing, family G (with RhoGef domain) member 3
+32148_at	FERM, RhoGEF (ARHGEF) and pleckstrin domain protein 1 (chondrocyte-derived)
+
+Gene Cluster 5	Enrichment Score: 0.18119530920638166
+ID	Gene Name
+35439_at	splicing factor 1
+35213_at	WW domain binding protein 4 (formin binding protein 21)
+
+Gene Cluster 2	Enrichment Score: 0.16991415459856954
+ID	Gene Name
+38945_at	metal-regulatory transcription factor 1
+41113_at	zinc finger protein 500
+34606_s_at	activating transcription factor 7
+33922_at	PR domain containing 2, with ZNF domain
+
+

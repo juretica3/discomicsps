@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ 
+<project name="DiscOmicsPS" default="default" basedir="."
+  xmlns:fx="javafx:com.sun.javafx.tools.ant">
+ 
+  <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home"/>
+  <property name="build.src.dir" value="src"/>
+  <property name="build.classes.dir" value="classes"/>
+  <property name="build.dist.dir" value="dist"/>
+ 
+  <target name="default" depends="clean,compile">
+ 
+    <taskdef resource="com/sun/javafx/tools/ant/antlib.xml"
+      uri="javafx:com.sun.javafx.tools.ant"
+      classpath="${JAVA_HOME}/lib/ant-javafx.jar"/>
+ 
+      <fx:application id="DiscOmicsPS"
+        name="DiscOmicsPS"
+        mainClass="discomics.Main"/>
+ 
+      <fx:resources id="appRes">
+        <fx:fileset dir="${build.dist.dir}" includes="DiscOmicsPS.jar"/>
+      </fx:resources>
+ 
+      <fx:jar destfile="${build.dist.dir}/DiscOmicsPS.jar">
+        <fx:application refid="DiscOmicsPS"/>
+        <fx:resources refid="appRes"/>
+        <fileset dir="${build.classes.dir}"/>
+      </fx:jar>
+ 
+      <fx:deploy width="300" height="250"
+        outdir="." embedJNLP="true"
+        outfile="discomicsps">
+ 
+        <fx:application refId="DiscOmicsPS"/>
+ 
+        <fx:resources refid="appRes"/>
+ 
+        <fx:info title="DiscOmicsPS"
+          vendor="SolBioscience"/>
+ 
+      </fx:deploy>
+ 
+  </target>
+ 
+  <target name="clean">
+    <mkdir dir="${build.classes.dir}"/>
+    <mkdir dir="${build.dist.dir}"/>
+
+    <delete>
+      <fileset dir="${build.classes.dir}" includes="**/*"/>
+      <fileset dir="${build.dist.dir}" includes="**/*"/>
+    </delete>
+ 
+  </target>
+ 
+  <target name="compile" depends="clean">
+ 
+    <javac includeantruntime="false"
+      srcdir="${build.src.dir}"
+      destdir="${build.classes.dir}"
+      fork="yes"
+      executable="${JAVA_HOME}/bin/javac"
+      source="1.8"
+      debug="on">
+    </javac>
+  </target>
+ 
+</project>

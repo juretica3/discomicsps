@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="discomics.controller.MainController">
+   <center>
+      <fx:include fx:id="mainTables" source="MainTablesController.fxml" />
+   </center>
+   <top>
+      <MenuBar fx:id="mainMenuBar" BorderPane.alignment="CENTER">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#inputListButtonAction" text="New Search ..." />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="openFileButton" mnemonicParsing="false" onAction="#openFileAction" text="Open ..." />
+                  <MenuItem fx:id="saveAsFileButton" mnemonicParsing="false" onAction="#saveAsFileAction" text="Save As ..." />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="quitApplicationButton" mnemonicParsing="false" onAction="#quitApplicationButtonAction" text="Quit" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Network">
+               <items>
+                  <Menu fx:id="proteolysisPpiNetworkMenu" mnemonicParsing="false" text="Proteolysis PPI Nets">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#showFullProteolysisNetwork" text="Full" />
+                        <MenuItem mnemonicParsing="false" onAction="#showStringentProteolysisNetwork" text="Stringent" />
+                     </items>
+                  </Menu>
+                  <Menu fx:id="biomarkerPpiNetworkMenu" mnemonicParsing="false" text="Biomarker PPI Nets">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#showFullBiomarkerNetwork" text="Full" />
+                        <MenuItem mnemonicParsing="false" onAction="#showBloodBiomarkerNetwork" text="Blood" />
+                        <MenuItem mnemonicParsing="false" onAction="#showUrineBiomarkerNetwork" text="Urine" />
+                        <MenuItem mnemonicParsing="false" onAction="#showSalivaBiomarkerNetwork" text="Saliva" />
+                     </items>
+                  </Menu>
+                  <MenuItem fx:id="customPpiNetworkMenuButton" mnemonicParsing="false" onAction="#showCustomNetwork" text="Custom PPI Net" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <Menu mnemonicParsing="false" text="Drug PPI Nets">
+                     <items>
+                        <MenuItem fx:id="drugPpiNetworkMenuButton" mnemonicParsing="false" onAction="#showDrugInteractionNetwork" text="Drug Interaction Net" />
+                        <MenuItem fx:id="drugStringentProteolysisNetMenuButton" mnemonicParsing="false" onAction="#showDrugStringentProteolysisInteractionNetwork" text="Drug Stringent Proteolysis Net" />
+                        <MenuItem fx:id="drugCustomNetworkMenuButton" mnemonicParsing="false" onAction="#showDrugCustomInteractionNetwork" text="Drug Custom Net" />
+                     </items>
+                  </Menu>
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Summary">
+               <items>
+                  <MenuItem fx:id="summaryProteolysisButton" mnemonicParsing="false" onAction="#summaryProteolysisButtonAction" text="Proteolysis Text Mining Summary" />
+                  <MenuItem fx:id="summaryBiomarkerButton" mnemonicParsing="false" onAction="#summaryBiomarkerButtonAction" text="Biomarkers Text Mining Summary" />
+                  <MenuItem fx:id="summaryCustomButton" mnemonicParsing="false" onAction="#summaryCustomButtonAction" text="Custom Text Mining Summary" />
+                  <MenuItem fx:id="summaryScoreButton" mnemonicParsing="false" onAction="#summaryScoreButtonAction" text="Summary Score Analysis" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="logMenuButton" mnemonicParsing="false" onAction="#showLogWindow" text="Log" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Text-Mining">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#showDrugMiningWindow" text="Drug Mining" />
+                  <MenuItem mnemonicParsing="false" onAction="#showNonStringentMiningWindow" text="Non-Stringent Mining" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Options">
+               <items>
+                  <CheckMenuItem fx:id="unclassifiedProteolysisMenuItem" mnemonicParsing="false" text="Unclassified proteolysis articles" />
+                  <Menu mnemonicParsing="false" text="Biomarker">
+                     <items>
+                        <RadioMenuItem fx:id="allMenuItem" mnemonicParsing="false" text="All" />
+                        <RadioMenuItem fx:id="urineMenuItem" mnemonicParsing="false" text="Urine" />
+                        <RadioMenuItem fx:id="bloodMenuItem" mnemonicParsing="false" text="Blood" />
+                        <RadioMenuItem fx:id="salivaMenuItem" mnemonicParsing="false" text="Saliva" />
+                        <RadioMenuItem fx:id="customMenuItem" mnemonicParsing="false" onAction="#customBiomarkerSelectedActionListener" text="Custom" />
+                     </items>
+                  </Menu>
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

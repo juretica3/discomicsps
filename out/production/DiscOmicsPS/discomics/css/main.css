@@ -1,0 +1,12 @@
+@font-face {
+    src: url("/discomics/font/source-sans-pro/SourceSansPro-Regular.otf");
+}
+
+@font-face {
+    src: url("/discomics/font/source-sans-pro/SourceSansPro-Bold.otf");
+}
+
+.root {
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-size: 1.25em;
+}

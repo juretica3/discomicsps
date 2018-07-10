@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.fxmisc.flowless:flowless:0.6" type="repository">
+    <properties maven-id="org.fxmisc.flowless:flowless:0.6" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/fxmisc/flowless/flowless/0.6/flowless-0.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/reactfx/reactfx/2.0-M5/reactfx-2.0-M5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
