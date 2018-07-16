@@ -54,9 +54,9 @@ public class ArticleCollectableBiom extends ArticleCollectable implements Serial
         return sb.toString();
     }
 
-    void finalisePostQuery() {
+    void finalisePostQuery(int maxArticlesRetrieved) {
         defineBiomarkersForArticles();
-        compressArticleSubset();
+        compressArticleSubset(maxArticlesRetrieved);
     }
 
     private void defineBiomarkersForArticles() {

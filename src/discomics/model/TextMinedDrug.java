@@ -26,7 +26,7 @@ public class TextMinedDrug extends TextMinedObject<Drug> {
     }
 
     @Override
-    public void finalisePostQuery() {
-        articleCollectableCust.finalisePostQuery();
+    public void finalisePostQuery(int maxArticlesRetrieved) {
+        articleCollectableCust.finalisePostQuery(maxArticlesRetrieved);
     }
 }

@@ -56,7 +56,7 @@ public class InputListController {
         }
     }};
 
-    private final int NR_THREADS_EPMC = 8;
+    private int NR_THREADS_EPMC = 2;
     private final int NR_THREADS_PUBMED = 1;
 
     private MainController mainController;
@@ -318,7 +318,7 @@ public class InputListController {
 
                 // finalise post-query (surplus article compression, definition of proteases and biomarkers mentioned in abstracts
                 for (TextMinedObject tmProt : model.getTextMinedProteins()) {
-                    tmProt.finalisePostQuery();
+                    tmProt.finalisePostQuery(mainController.getMaxArticlesRetrieved());
                 }
 
                 // START GENE FAMILY TEXT MINING
@@ -384,7 +384,7 @@ public class InputListController {
 
                 // finalise post-query (surplus article compression, definition of proteases and biomarkers mentioned in abstracts
                 for (TextMinedObject tmGeneFamily : model.getTextMinedGeneFamilies())
-                    tmGeneFamily.finalisePostQuery();
+                    tmGeneFamily.finalisePostQuery(mainController.getMaxArticlesRetrieved());
 
 
                 // START NETWORK QUERY
@@ -522,6 +522,14 @@ public class InputListController {
             mmpRadioButton.setSelected(false);
             ctsRadioButton.setSelected(false);
         }
+    }
+
+    void setNumberSearchThreads(int threadNr) {
+        this.NR_THREADS_EPMC = threadNr;
+    }
+
+    int getNumberSearchThreads() {
+        return this.NR_THREADS_EPMC;
     }
 
     void showStage(boolean show) {

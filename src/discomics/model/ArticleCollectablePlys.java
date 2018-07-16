@@ -84,12 +84,12 @@ public class ArticleCollectablePlys extends ArticleCollectable implements Serial
         super.filterArticlesTmObjectNames(tmInput, querySettings); // filter according to tmInput names
     }
 
-    void finalisePostQuery() {
+    void finalisePostQuery(int maxArticlesRetrieved) {
         for (Article article : this.articleCollection) {
             article.setProteasesMentioned(ArticleScanProtease.processAbstractForProteases(article.getArtAbstract(), proteaseFamily));
         }
 
-        compressArticleSubset();
+        compressArticleSubset(maxArticlesRetrieved);
     }
 
     private String constructSearchQueryUrlProteolysis(List<String> searchTermProtNames, ArticleQueryable articleQueryable, boolean abstractTitleSearch) {

@@ -51,18 +51,18 @@ public abstract class TextMinedObject<T extends TextMinableInput> implements Ser
         }
     }
 
-    public void finalisePostQuery() {
+    public void finalisePostQuery(int maxArticlesRetrieved) {
         if (querySettings.isProteaseSearch()) {
             this.articleCollectablePlys.filterArticlesTmObjectNames(textMinableInput, querySettings);
-            this.articleCollectablePlys.finalisePostQuery();
+            this.articleCollectablePlys.finalisePostQuery(maxArticlesRetrieved);
         }
         if (querySettings.isBiomarkerSearch()) {
             this.articleCollectableBiom.filterArticlesTmObjectNames(textMinableInput, querySettings);
-            this.articleCollectableBiom.finalisePostQuery();
+            this.articleCollectableBiom.finalisePostQuery(maxArticlesRetrieved);
         }
         if (querySettings.isCustomSearch()) {
             this.articleCollectableCust.filterArticlesTmObjectNames(textMinableInput, querySettings);
-            this.articleCollectableCust.finalisePostQuery();
+            this.articleCollectableCust.finalisePostQuery(maxArticlesRetrieved);
         }
     }
 

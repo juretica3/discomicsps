@@ -53,6 +53,10 @@ public class MainController implements TableControllable {
     private MainControllerNonStringent mainControllerNonStringent;
     private MainControllerDrugMining mainControllerDrugMining;
 
+    private MainControllerSettings mainControllerSettings;
+
+    private int MAX_ARTICLES_RETRIEVED = 50;
+
     // ENCAPSULATED CONTROLLER
     @FXML
     private MainTablesController mainTablesController;
@@ -269,6 +273,16 @@ public class MainController implements TableControllable {
         drugMiningStage.setResizable(false);
         this.mainControllerDrugMining = loader7.getController();
         this.mainControllerDrugMining.init(this, drugMiningStage);
+
+        FXMLLoader loader8 = new FXMLLoader(getClass().getResource("/discomics/view/MainControllerSettings.fxml"));
+        Parent settingsControllerView = loader8.load();
+        Stage settingsStage = new Stage();
+        Scene settingsScene = new MyScene(settingsControllerView);
+        settingsStage.setScene(settingsScene);
+        settingsStage.setTitle(Main.NAME + " v." + Main.VERSION);
+        settingsStage.setResizable(false);
+        this.mainControllerSettings = loader8.getController();
+        this.mainControllerSettings.init(this, settingsStage);
     }
 
     void initialiseApplicationViews() {
@@ -457,6 +471,11 @@ public class MainController implements TableControllable {
         mainControllerDrugMining.showStage(true);
     }
 
+    @FXML
+    private void openSettingsButtonAction() {
+        mainControllerSettings.showStage();
+    }
+
     // GUI METHODS
     void focusMainStage() {
         mainStage.requestFocus();
@@ -499,11 +518,11 @@ public class MainController implements TableControllable {
             protected List<TextMinedObject> call() throws Exception {
                 List<TextMinedObject> textMinedDrugs = new ArrayList<>();
 
-                for(TextMinedObject tmObject: selectedTmObjects) {
+                for (TextMinedObject tmObject : selectedTmObjects) {
                     Protein selectedProtein = ((TextMinedProtein) tmObject).getTextMinableInput();
                     List<TextMinedObject> outputTextMinedDrugs = mainControllerDrugMining.textMineDrugs(selectedProtein, model.getCustomSearchTerms());
-                    for(TextMinedObject tmDrug: textMinedDrugs) {
-                        if(tmDrug.getTextMinableInput().getMainName().toLowerCase().contains("pamidronate")) {
+                    for (TextMinedObject tmDrug : textMinedDrugs) {
+                        if (tmDrug.getTextMinableInput().getMainName().toLowerCase().contains("pamidronate")) {
                             System.out.println("Nr articles: " + tmDrug.getArticleCollectableCust().getArticleCollection().size());
                         }
                     }
@@ -519,8 +538,8 @@ public class MainController implements TableControllable {
                 List<TextMinedObject> tmDrugsResult = textMiningTask.get();
                 textMiningTask.onSucceeded(new ArrayList<>()); // no failed cases, ever (arbitrary)
 
-                if(tmDrugsResult != null) { // update MODEL
-                    for(TextMinedObject tmDrug: tmDrugsResult) {
+                if (tmDrugsResult != null) { // update MODEL
+                    for (TextMinedObject tmDrug : tmDrugsResult) {
                         this.getModel().addTextMinedDrug((TextMinedDrug) tmDrug);
                     }
                 }
@@ -1204,5 +1223,21 @@ public class MainController implements TableControllable {
 
     String getLogContent() {
         return logWindow.allContent.toString();
+    }
+
+    void setNumberSearchThreads(int threadNr) {
+        this.inputListController.setNumberSearchThreads(threadNr);
+    }
+
+    int getNumberSearchThreads() {
+        return this.inputListController.getNumberSearchThreads();
+    }
+
+    void setMaxArticlesRetrieved(int value) {
+        this.MAX_ARTICLES_RETRIEVED = value;
+    }
+
+    int getMaxArticlesRetrieved() {
+        return this.MAX_ARTICLES_RETRIEVED;
     }
 }

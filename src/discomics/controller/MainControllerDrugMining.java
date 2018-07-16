@@ -53,7 +53,7 @@ public class MainControllerDrugMining {
             executorService.submit((Callable<Void>) () -> {
                 TextMinedObject textMinedDrug = new TextMinedDrug(drug, customTerms, querySettings); // create text mined drug object
                 textMinedDrug.queryEPmc(); // perform text mining
-                textMinedDrug.finalisePostQuery(); // perform filtering, compression
+                textMinedDrug.finalisePostQuery(mainController.getMaxArticlesRetrieved()); // perform filtering, compression
                 textMinedDrugs.add(textMinedDrug); // add to output list
                 return null;
             });

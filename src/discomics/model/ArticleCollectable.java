@@ -128,16 +128,15 @@ class ArticleCollectable implements Serializable {
 //        this.articleCollection = articlesToKeep;
 //    }
 
-    void compressArticleSubset() {
-        int maxNrToKeep = 300;
+    void compressArticleSubset(int maxArticlesRetrieved) {
 
-        if (maxNrToKeep >= this.articleCollection.size())
+        if (maxArticlesRetrieved >= this.articleCollection.size())
             return;
 
         ArrayList<Article> articles = new ArrayList<>(this.articleCollection);
         articles.sort(new ArticleFilterAndDateComparator());
 
-        for (int i = maxNrToKeep; i < articles.size(); i++) {
+        for (int i = maxArticlesRetrieved; i < articles.size(); i++) {
             Article article = articles.get(i);
 
             article.setArtAbstract("");

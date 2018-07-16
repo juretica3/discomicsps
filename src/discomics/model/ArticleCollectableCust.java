@@ -79,8 +79,8 @@ public class ArticleCollectableCust extends ArticleCollectable implements Serial
         return sb.toString();
     }
 
-    void finalisePostQuery() {
-        compressArticleSubset();
+    void finalisePostQuery(int maxArticlesRetrieved) {
+        compressArticleSubset(maxArticlesRetrieved);
     }
 
     private void filterArticlesCustomTerms() {

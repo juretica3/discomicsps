@@ -22,6 +22,7 @@
                   <MenuItem fx:id="openFileButton" mnemonicParsing="false" onAction="#openFileAction" text="Open ..." />
                   <MenuItem fx:id="saveAsFileButton" mnemonicParsing="false" onAction="#saveAsFileAction" text="Save As ..." />
                   <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="openSettingsButton" mnemonicParsing="false" onAction="#openSettingsButtonAction" text="Settings ..." />
                   <MenuItem fx:id="quitApplicationButton" mnemonicParsing="false" onAction="#quitApplicationButtonAction" text="Quit" />
                </items>
             </Menu>
