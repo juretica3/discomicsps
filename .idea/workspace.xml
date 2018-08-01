@@ -10,41 +10,11 @@
     <bookmark url="file://$PROJECT_DIR$/src/discomics/model/ProteinName.java" line="52" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="introduced global settings dialog specifying maximum articles to be retrieved and number of threads for the search">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/discomics/controller/MainControllerSettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/discomics/view/MainControllerSettings.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$6.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock$InputBox.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock$InputBox.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$1.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$2.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$3.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$CustomBiomarkerDefinitionDialog$1.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$CustomBiomarkerDefinitionDialog$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$CustomBiomarkerDefinitionDialog.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$CustomBiomarkerDefinitionDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$LogWindow$MyLabel.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$LogWindow$MyLabel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$LogWindow.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$LogWindow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainControllerDrugMining.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainControllerDrugMining.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectable.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableBiom.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableBiom.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableCust.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableCust.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectablePlys.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectablePlys.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/TextMinedDrug.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/TextMinedDrug.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/TextMinedObject.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/TextMinedObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/DiscOmicsPS_jar/DiscOmix.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/view/MainController.fxml" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/view/MainController.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/discomics/controller/InputListController.java" afterPath="$PROJECT_DIR$/src/discomics/controller/InputListController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/discomics/controller/MainController.java" afterPath="$PROJECT_DIR$/src/discomics/controller/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java" afterPath="$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/discomics/model/ArticleCollectable.java" afterPath="$PROJECT_DIR$/src/discomics/model/ArticleCollectable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/discomics/model/ArticleCollectableBiom.java" afterPath="$PROJECT_DIR$/src/discomics/model/ArticleCollectableBiom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/discomics/model/ArticleCollectableCust.java" afterPath="$PROJECT_DIR$/src/discomics/model/ArticleCollectableCust.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/discomics/model/ArticleCollectablePlys.java" afterPath="$PROJECT_DIR$/src/discomics/model/ArticleCollectablePlys.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/discomics/model/TextMinedDrug.java" afterPath="$PROJECT_DIR$/src/discomics/model/TextMinedDrug.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/discomics/model/TextMinedObject.java" afterPath="$PROJECT_DIR$/src/discomics/model/TextMinedObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/discomics/view/MainController.fxml" afterPath="$PROJECT_DIR$/src/discomics/view/MainController.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,17 +80,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InputListController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InputListController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/discomics/controller/InputListController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="532" column="5" lean-forward="true" selection-start-line="532" selection-start-column="5" selection-end-line="532" selection-end-column="5" />
+            <state relative-caret-position="232">
+              <caret line="551" column="9" lean-forward="true" selection-start-line="551" selection-start-column="9" selection-end-line="551" selection-end-column="9" />
               <folding>
-                <element signature="e#6561#6570#0" expanded="true" />
-                <element signature="e#23326#23327#0" expanded="true" />
-                <element signature="e#23373#23374#0" expanded="true" />
-                <element signature="e#23409#23410#0" expanded="true" />
-                <element signature="e#23452#23453#0" expanded="true" />
+                <element signature="e#25729#25730#0" expanded="true" />
+                <element signature="e#25772#25773#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,7 +96,7 @@
       <file leaf-file-name="MainControllerDrugMining.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
+            <state relative-caret-position="750">
               <caret line="56" column="72" lean-forward="false" selection-start-line="56" selection-start-column="72" selection-end-line="56" selection-end-column="72" />
               <folding />
             </state>
@@ -139,7 +106,7 @@
       <file leaf-file-name="ArticleCollectablePlys.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/discomics/model/ArticleCollectablePlys.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="1230">
               <caret line="91" column="50" lean-forward="false" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
               <folding />
             </state>
@@ -149,7 +116,7 @@
       <file leaf-file-name="TextMinedObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/discomics/model/TextMinedObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="900">
               <caret line="64" column="39" lean-forward="false" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
               <folding />
             </state>
@@ -179,8 +146,8 @@
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="1232" column="43" lean-forward="true" selection-start-line="1232" selection-start-column="43" selection-end-line="1232" selection-end-column="43" />
+            <state relative-caret-position="17100">
+              <caret line="1232" column="43" lean-forward="false" selection-start-line="1232" selection-start-column="43" selection-end-line="1232" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#20593#20594#0" expanded="true" />
@@ -201,8 +168,8 @@
       <file leaf-file-name="MainControllerSettings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="86" column="22" lean-forward="true" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+            <state relative-caret-position="-5">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,23 +177,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainControllerSettings.fxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/discomics/view/MainControllerSettings.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="44" column="74" lean-forward="false" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ArticleCollectable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/discomics/model/ArticleCollectable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="1830">
               <caret line="130" column="40" lean-forward="false" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
               <folding />
             </state>
@@ -374,8 +328,8 @@
         <option value="$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java" />
         <option value="$PROJECT_DIR$/src/discomics/view/MainControllerSettings.fxml" />
         <option value="$PROJECT_DIR$/src/discomics/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/discomics/controller/InputListController.java" />
         <option value="$PROJECT_DIR$/src/discomics/controller/MainControllerSettings.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/InputListController.java" />
       </list>
     </option>
   </component>
@@ -441,7 +395,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -496,9 +453,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -574,7 +528,7 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="discomics.Main" />
-      <option name="VM_PARAMETERS" value="-XX:+UseG1GC -XX:+UseStringDeduplication -Xms4g" />
+      <option name="VM_PARAMETERS" value="-XX:+UseG1GC -XX:+UseStringDeduplication" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -851,6 +805,14 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
     </task>
+    <task id="LOCAL-00001" summary="introduced global settings dialog specifying maximum articles to be retrieved and number of threads for the search">
+      <created>1531745822330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531745822330</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -871,7 +833,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28064844" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -882,7 +843,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32599726" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2113951" sideWeight="0.6703755" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.157082" sideWeight="0.6703755" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920128" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -900,6 +861,7 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298077" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28064844" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.096875" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1243,9 +1205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1332,15 +1291,15 @@
         <state relative-caret-position="228">
           <caret line="82" column="50" lean-forward="false" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
           <folding>
-            <element signature="e#3283#3284#0" expanded="true" />
-            <element signature="e#3342#3343#0" expanded="true" />
+            <element signature="e#3283#3284#0" expanded="false" />
+            <element signature="e#3342#3343#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/model/TextMinedObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="900">
           <caret line="64" column="39" lean-forward="false" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
           <folding />
         </state>
@@ -1348,7 +1307,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/model/ArticleCollectablePlys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="1230">
           <caret line="91" column="50" lean-forward="false" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
           <folding />
         </state>
@@ -1356,7 +1315,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
+        <state relative-caret-position="750">
           <caret line="56" column="72" lean-forward="false" selection-start-line="56" selection-start-column="72" selection-end-line="56" selection-end-column="72" />
           <folding />
         </state>
@@ -1380,7 +1339,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/model/ArticleCollectable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="1830">
           <caret line="130" column="40" lean-forward="false" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
           <folding />
         </state>
@@ -1388,8 +1347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="1232" column="43" lean-forward="true" selection-start-line="1232" selection-start-column="43" selection-end-line="1232" selection-end-column="43" />
+        <state relative-caret-position="17100">
+          <caret line="1232" column="43" lean-forward="false" selection-start-line="1232" selection-start-column="43" selection-end-line="1232" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#20593#20594#0" expanded="true" />
@@ -1406,38 +1365,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/controller/InputListController.java">
+    <entry file="file://$PROJECT_DIR$/src/discomics/view/MainControllerSettings.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="532" column="5" lean-forward="true" selection-start-line="532" selection-start-column="5" selection-end-line="532" selection-end-column="5" />
-          <folding>
-            <element signature="e#6561#6570#0" expanded="true" />
-            <element signature="e#23326#23327#0" expanded="true" />
-            <element signature="e#23373#23374#0" expanded="true" />
-            <element signature="e#23409#23410#0" expanded="true" />
-            <element signature="e#23452#23453#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="439">
+          <caret line="37" column="53" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="86" column="22" lean-forward="true" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+        <state relative-caret-position="-5">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/view/MainControllerSettings.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/InputListController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="44" column="74" lean-forward="false" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="74" />
-          <folding />
+        <state relative-caret-position="232">
+          <caret line="551" column="9" lean-forward="true" selection-start-line="551" selection-start-column="9" selection-end-line="551" selection-end-column="9" />
+          <folding>
+            <element signature="e#25729#25730#0" expanded="true" />
+            <element signature="e#25772#25773#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

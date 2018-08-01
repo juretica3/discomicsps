@@ -414,13 +414,50 @@ public class InputListController {
             }
         });
 
+        List<String> wrongInputStructureGenes = checkInputGeneStructure(proteinCollection.getInputProteinSet());
+
+        if (wrongInputStructureGenes.size() > 0) {
+            Alert alert = new MyAlert(Alert.AlertType.WARNING, this.inputListStage);
+            alert.setTitle("Warning");
+            alert.setHeaderText(null);
+            String msgRoot = "The following genes contain illegal non-alphanumeric characters.\n\n";
+            StringBuilder sb = new StringBuilder();
+            sb.append(msgRoot);
+            for (int i = 0; i < wrongInputStructureGenes.size(); i++) {
+                String wrongInput = wrongInputStructureGenes.get(i);
+                sb.append(wrongInput);
+                if (i != (wrongInputStructureGenes.size() - 1))
+                    sb.append("\n");
+            }
+            alert.setContentText(sb.toString());
+
+            ButtonType buttonTypeOne = new ButtonType("Remove Genes");
+            ButtonType buttonTypeCancel = new ButtonType("Cancel", ButtonBar.ButtonData.CANCEL_CLOSE);
+
+            alert.getButtonTypes().setAll(buttonTypeOne, buttonTypeCancel);
+
+            Optional<ButtonType> result = alert.showAndWait();
+
+            if (result.isPresent()) {
+                if (result.get() == buttonTypeOne) { // if button type two (not present) then do nothing, so proceed to end of method where search is initiated
+                    for (String wrongGene : wrongInputStructureGenes) {
+                        proteinCollection.removeInputProtein(wrongGene);
+                    }
+                } else if (result.get() == buttonTypeCancel) {
+                    return; // return from method without running the search
+                }
+            } else {
+                return; // return without running search
+            }
+        }
+
         List<String> superCommonGenes = checkInputGenesForSuperCommon(proteinCollection.getInputProteinSet());
 
         if (superCommonGenes.size() > 0) {
             Alert alert = new MyAlert(Alert.AlertType.INFORMATION, this.inputListStage);
             alert.setTitle("Information");
             alert.setHeaderText(null);
-            String msgRoot = "Please note that the following entered genes are among the most abundant constituents of human plasma. " +
+            String msgRoot = "The following entered genes are among the most abundant constituents of human plasma. " +
                     "Their presence in the query set might skew the results.\n\n";
             StringBuilder sb = new StringBuilder();
             sb.append(msgRoot);
@@ -440,22 +477,22 @@ public class InputListController {
 
             Optional<ButtonType> result = alert.showAndWait();
 
-            ExecutorService executorService = Executors.newSingleThreadExecutor();
-
-            if (result.get() == buttonTypeOne) {
-                for (String superCommonGene : superCommonGenes) {
-                    proteinCollection.removeInputProtein(superCommonGene);
+            if (result.isPresent()) {
+                if (result.get() == buttonTypeOne) { // if button type two (not present) then do nothing, so proceed to end of method where search is initiated
+                    for (String superCommonGene : superCommonGenes) {
+                        proteinCollection.removeInputProtein(superCommonGene);
+                    }
+                } else if (result.get() == buttonTypeCancel) {
+                    return; // return from method without running the search
                 }
-                executorService.submit(textMiningTask);
-            } else if (result.get() == buttonTypeTwo) {
-                executorService.submit(textMiningTask);
-            } else if (result.get() == buttonTypeCancel) {
-                return;
+            } else {
+                return; // return without running search
             }
-        } else {
-            ExecutorService executorService = Executors.newSingleThreadExecutor();
-            executorService.submit(textMiningTask);
         }
+
+        // submit job
+        ExecutorService executorService = Executors.newSingleThreadExecutor();
+        executorService.submit(textMiningTask);
 
         this.inputListStage.hide();
 
@@ -502,6 +539,19 @@ public class InputListController {
             customTextMiningInputMenu.dialog.setX(positionX);
             customTextMiningInputMenu.dialog.setY(positionY);
         }
+    }
+
+    // returns all genes that do not have correct input structure (only alphanumeric characters are allowed)
+    private List<String> checkInputGeneStructure(Set<String> inputGenes) {
+        List<String> output = new ArrayList<>();
+        String regexPunctuation = "^\\p{Alnum}";
+        for (String inputGene : inputGenes) {
+            if (inputGene.matches(regexPunctuation)) {
+                output.add(inputGene);
+            }
+        }
+
+        return output;
     }
 
     private List<String> checkInputGenesForSuperCommon(Set<String> inputGenes) {
