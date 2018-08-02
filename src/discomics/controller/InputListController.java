@@ -28,6 +28,7 @@ import java.io.InputStream;
 import java.net.SocketException;
 import java.util.*;
 import java.util.concurrent.*;
+import java.util.regex.Pattern;
 
 /**
  * Created by Jure on 4.9.2016.
@@ -544,9 +545,11 @@ public class InputListController {
     // returns all genes that do not have correct input structure (only alphanumeric characters are allowed)
     private List<String> checkInputGeneStructure(Set<String> inputGenes) {
         List<String> output = new ArrayList<>();
-        String regexPunctuation = "^\\p{Alnum}";
+        String regexPunctuation = "^[a-zA-Z0-9]*$";
+        Pattern regexPattern = Pattern.compile(regexPunctuation);
+
         for (String inputGene : inputGenes) {
-            if (inputGene.matches(regexPunctuation)) {
+            if (!regexPattern.matcher(inputGene).find()) {
                 output.add(inputGene);
             }
         }
