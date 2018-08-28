@@ -10,9 +10,814 @@
     <bookmark url="file://$PROJECT_DIR$/src/discomics/model/ProteinName.java" line="52" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="updated progress bar after main task initiation">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/discomics/controller/TasksProgressPane.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/discomics/view/TasksProgressPane.fxml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/annotationTable.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/chartReport.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/geneClusterReport.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/DAVIDWebServiceClient.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/XmlSchema-1.4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/XmlSchema-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/activation-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/activation-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axiom-api-1.2.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axiom-api-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axiom-dom-1.2.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axiom-dom-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axiom-impl-1.2.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axiom-impl-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-adb-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-adb-codegen-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-ant-plugin-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-clustering-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-codegen-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-corba-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-fastinfoset-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-java2wsdl-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-jaxbri-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-jaxws-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-jibx-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-json-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-kernel-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-metadata-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-mtompolicy-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-saaj-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-soapmonitor-servlet-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-spring-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-transport-http-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-transport-local-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/axis2-xmlbeans-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/bcel-5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/bcel-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/commons-codec-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/commons-codec-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/commons-fileupload-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/commons-fileupload-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/commons-httpclient-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/commons-httpclient-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/commons-io-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/commons-io-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/commons-logging-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/geronimo-annotation-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/geronimo-annotation_1.0_spec-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/geronimo-jaxws-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/geronimo-jaxws_2.1_spec-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/geronimo-jta-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/geronimo-jta_1.1_spec-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/geronimo-saaj-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/geronimo-saaj_1.3_spec-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/geronimo-stax-api-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/geronimo-stax-api_1.0_spec-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/geronimo-ws-metadata-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/geronimo-ws-metadata_2.0_spec-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/httpcore-4.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/httpcore-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jalopy-1.5rc3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jalopy-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jaxb-api-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jaxb-api-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jaxb-impl-2.1.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jaxb-impl-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jaxb-xjc-2.1.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jaxb-xjc-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jaxen-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jaxen-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jettison-1.0-RC2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jettison-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jibx-bind-1.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jibx-bind-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jibx-run-1.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/jibx-run-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/juli-6.0.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/juli-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/junit.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/log4j-1.2.15.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/log4j-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/log4j.properties.patch.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/mail-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/mail-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/neethi-2.0.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/neethi-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/tribes-6.0.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/tribes-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/woden-api-1.0M8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/woden-api-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/woden-impl-dom-1.0M8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/woden-impl-dom-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/wsdl4j-1.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/wsdl4j-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/wstx-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/wstx-asl-3.2.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/xalan-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/xalan-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/xercesImpl-2.8.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/xercesImpl-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/xml-resolver-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/xml-resolver-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/xmlbeans-2.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/lib/xmlbeans-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/sample/session/client/ChartReportClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/sample/session/client/ChartReportClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/sample/session/client/GeneClusterReportClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/sample/session/client/GeneClusterReportClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/sample/session/client/TableReportClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/sample/session/client/TableReportClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/sample/session/client/TermClusterReportClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/sample/session/client/TermClusterReportClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaClient/termClusterReport.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/5-pin-connector.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/audiotape.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/cloud.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/compact-disc-storage.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/computer-cpu.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/data-storage-1.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/data-storage-2.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/data-storage.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/database.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/download-arrow.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/download-from-cloud.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/file-folder.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/floppy-diskette.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/hard-disk.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/hdd-storage.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/ipod.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/photo-camera.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/save-icon.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/sd-card.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/sim-card-1.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/sim-card.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/smartphone.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/speaker.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/ssd-storage.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/temporal-data-storage.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/upload-to-cloud.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/usb-memory.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/usb-plug-1.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/usb-plug.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/eps/usb-symbol.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/font/Flaticon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/font/Flaticon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/font/Flaticon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/font/Flaticon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/font/_flaticon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/font/flaticon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/font/flaticon.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/license/license.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/5-pin-connector.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/audiotape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/compact-disc-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/computer-cpu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/data-storage-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/data-storage-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/data-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/database.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/download-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/download-from-cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/file-folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/floppy-diskette.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/hard-disk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/hdd-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/ipod.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/photo-camera.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/save-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/sd-card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/sim-card-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/sim-card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/smartphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/speaker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/ssd-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/temporal-data-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/upload-to-cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/usb-memory.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/usb-plug-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/usb-plug.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/png/usb-symbol.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/5-pin-connector.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/audiotape.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/cloud.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/compact-disc-storage.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/computer-cpu.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/data-storage-1.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/data-storage-2.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/data-storage.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/database.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/download-arrow.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/download-from-cloud.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/file-folder.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/floppy-diskette.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/hard-disk.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/hdd-storage.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/ipod.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/photo-camera.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/save-icon.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/sd-card.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/sim-card-1.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/sim-card.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/smartphone.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/speaker.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/ssd-storage.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/temporal-data-storage.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/upload-to-cloud.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/usb-memory.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/usb-plug-1.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/usb-plug.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/psd/usb-symbol.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/5-pin-connector.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/audiotape.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/compact-disc-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/computer-cpu.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/data-storage-1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/data-storage-2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/data-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/database.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/download-arrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/download-from-cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/file-folder.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/floppy-diskette.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/hard-disk.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/hdd-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/ipod.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/photo-camera.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/save-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/sd-card.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/sim-card-1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/sim-card.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/smartphone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/speaker.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/ssd-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/temporal-data-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/upload-to-cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/usb-memory.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/usb-plug-1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/usb-plug.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/icon/111310-data-storage/svg/usb-symbol.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/_DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/_DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/adam_subtypes_json.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/adamts_subtypes_json.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/application/AlphanumComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/application/ArticleScanProtease.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/application/DownloadFileHTTP$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/application/DownloadFileHTTP$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/application/DownloadFileHTTP$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/application/DownloadFileHTTP.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/application/EnglishDictionary.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/application/GreekAlphabet$GreekLetter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/application/GreekAlphabet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/application/MyLogger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/application/RomanDecoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/ArticleTableController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/ArticleTableController$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/ArticleTableController$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/ArticleTableController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/DetailsArticleController$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/DetailsArticleController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/DetailsArticleController$2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/DetailsArticleController$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/DetailsArticleController$3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/DetailsArticleController$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/DetailsArticleController$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/DetailsArticleController$ArticleDetailsPane.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/DetailsArticleController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/DetailsGeneFamilyController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/DetailsGeneFamilyController$GeneFamilyDetailsPane.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/DetailsGeneFamilyController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/DetailsProteinController$ProteinDetailsPane.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/DetailsProteinController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/ExceptionDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/GeneCountsTablesController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/InputListController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/InputListController$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/InputListController$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/InputListController$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/InputListController$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/InputListController$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/InputListController$CustomTextMiningInput$InputBlock$InputBox.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/InputListController$CustomTextMiningInput$InputBlock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/InputListController$CustomTextMiningInput.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/InputListController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainController$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainController$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainController$CustomBiomarkerDefinitionDialog$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainController$CustomBiomarkerDefinitionDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainController$LogWindow$MyLabel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainController$LogWindow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainControllerDrugMining.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainControllerNonStringent$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainControllerNonStringent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainTablesController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainTablesController$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainTablesController$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainTablesController$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainTablesController$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainTablesController$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainTablesController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MainTablesDrugsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MyAlert.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MyDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MyProgressDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MyScene.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MyTableListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/MyTableModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/NetworkController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/NetworkController$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/NetworkController$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/NetworkController$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/NetworkController$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/NetworkController$NetworkDbLinkPopup.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/NetworkController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/ProteaseTableController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/ProteinTableController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/StatusBarController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/StatusBarController$MyTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/StatusBarController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/SummaryBiomarkerController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/SummaryController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/SummaryCustomController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/SummaryProteolysisController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/SummaryScoreController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/SummaryScoreController$ScoreTableEntry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/SummaryScoreController$TooltipClickNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/SummaryScoreController$XyScatterDataComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/SummaryScoreController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/TableControllable$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/TableControllable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/TextMinedObjectDetailsPane$MyLabel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/TextMinedObjectDetailsPane.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/controller/TextMiningTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/css/progressBar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/cts_subtypes_json.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/db/drugbankVocabulary.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/db/hgnc_20171219_processed.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/dictionary/note.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/dictionary/wordsEnglish.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/font/source-sans-pro/SIL Open Font License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/font/source-sans-pro/SourceSansPro-Black.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/font/source-sans-pro/SourceSansPro-BlackIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/font/source-sans-pro/SourceSansPro-Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/font/source-sans-pro/SourceSansPro-BoldIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/font/source-sans-pro/SourceSansPro-ExtraLight.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/font/source-sans-pro/SourceSansPro-ExtraLightIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/font/source-sans-pro/SourceSansPro-It.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/font/source-sans-pro/SourceSansPro-Light.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/font/source-sans-pro/SourceSansPro-LightIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/font/source-sans-pro/SourceSansPro-Regular.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/font/source-sans-pro/SourceSansPro-Semibold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/font/source-sans-pro/SourceSansPro-SemiboldIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/greek/greekAlphabet.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/02-512-network-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/5-pin-connector.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/audiotape.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/cloud.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/compact-disc-storage.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/computer-cpu.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/data-storage-1.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/data-storage-2.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/data-storage.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/database.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/download-arrow.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/download-from-cloud.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/file-folder.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/floppy-diskette.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/hard-disk.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/hdd-storage.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/ipod.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/photo-camera.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/save-icon.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/sd-card.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/sim-card-1.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/sim-card.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/smartphone.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/speaker.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/ssd-storage.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/temporal-data-storage.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/upload-to-cloud.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/usb-memory.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/usb-plug-1.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/usb-plug.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/eps/usb-symbol.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/font/Flaticon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/font/Flaticon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/font/Flaticon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/font/Flaticon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/font/_flaticon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/font/flaticon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/font/flaticon.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/license/license.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/5-pin-connector.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/audiotape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/compact-disc-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/computer-cpu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/data-storage-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/data-storage-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/data-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/database.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/download-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/download-from-cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/file-folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/floppy-diskette.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/hard-disk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/hdd-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/ipod.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/photo-camera.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/save-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/sd-card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/sim-card-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/sim-card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/smartphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/speaker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/ssd-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/temporal-data-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/upload-to-cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/usb-memory.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/usb-plug-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/usb-plug.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/png/usb-symbol.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/5-pin-connector.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/audiotape.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/cloud.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/compact-disc-storage.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/computer-cpu.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/data-storage-1.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/data-storage-2.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/data-storage.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/database.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/download-arrow.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/download-from-cloud.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/file-folder.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/floppy-diskette.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/hard-disk.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/hdd-storage.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/ipod.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/photo-camera.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/save-icon.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/sd-card.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/sim-card-1.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/sim-card.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/smartphone.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/speaker.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/ssd-storage.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/temporal-data-storage.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/upload-to-cloud.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/usb-memory.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/usb-plug-1.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/usb-plug.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/psd/usb-symbol.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/5-pin-connector.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/audiotape.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/compact-disc-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/computer-cpu.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/data-storage-1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/data-storage-2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/data-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/database.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/download-arrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/download-from-cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/file-folder.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/floppy-diskette.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/hard-disk.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/hdd-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/ipod.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/photo-camera.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/save-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/sd-card.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/sim-card-1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/sim-card.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/smartphone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/speaker.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/ssd-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/temporal-data-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/upload-to-cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/usb-memory.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/usb-plug-1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/usb-plug.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/111310-data-storage/svg/usb-symbol.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/Free-Filter-Icon-protein.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/Free-Filter-Icon_protease.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/atom-25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/attention-1-red-table.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/attention-2-yellow-table.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/attention-table.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/check-mark-table.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/copy_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/full_size/02-512.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/full_size/Free-Filter-Icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/full_size/Free-Filter-Icon_protease.xcf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/full_size/atom-512.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/full_size/back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/full_size/black-open-in-browser-256.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/full_size/cut-512.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/full_size/folder-open_318-40788.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/full_size/help-512.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/full_size/import_document_mail_save-512.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/full_size/list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/full_size/refresh-button-icon-63755.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/full_size/save-icon-20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/full_size/save_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/help-512_resized.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/import_resized.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/list_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/network32px.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/no_img_available.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/open_file.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/question-table.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/refresh_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/save-icon-20small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/save.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/agenda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/arrows-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/clock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/cogwheel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/filter1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/folder-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/interface.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/internet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/line-graph.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/multimedia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/name-tag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/rewind.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/round.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/search1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/spiral.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/string.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/technology.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/technology_img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/technology_txt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/zoom-in.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/selected_pack/zoom-out.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/icon/x-mark-table.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/mmp_subtypes_json.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/Article$ArtAuthor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/Article.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleCollectable$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleCollectable$ArticleFilterAndDateComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleCollectable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleCollectableBiom$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleCollectableBiom$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleCollectableBiom.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleCollectableCust$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleCollectableCust$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleCollectableCust.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleCollectablePlys$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleCollectablePlys$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleCollectablePlys.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleFilterProteinName$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleFilterProteinName.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleQueryable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleQueryableEPmc.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleQueryablePubmed$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleQueryablePubmed$ESearchResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ArticleQueryablePubmed.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/Biomarker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/CustomInputQuery$CustomInputTermBlock$CustomInputTerm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/CustomInputQuery$CustomInputTermBlock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/CustomInputQuery.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/CustomInputTermBlock$CustomInputTerm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/CustomInputTermBlock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/Drug.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/GeneFamily.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/GoAnnotation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/IoModel$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/IoModel$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/IoModel$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/IoModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/NetworkEdge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/NetworkNodeProtein.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteaseCount.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteaseFamily.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/Protein$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/Protein$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/Protein$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/Protein$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/Protein$StringEntryForParsing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/Protein.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteinCollection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteinDrugInteractionNetwork.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteinInteractionNetwork.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteinName$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteinName$NamePart.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteinName.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteinNomenclature$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteinNomenclature$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteinNomenclature$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteinNomenclature$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteinNomenclature$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteinNomenclature$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteinNomenclature$ProteinNameSet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/ProteinNomenclature.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/QuerySettings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/TextMinableInput.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/TextMinedDrug.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/TextMinedGeneFamily.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/TextMinedObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/model/TextMinedProtein.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/proteaseData.obj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/super_common_geneID.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/textmining/clashing_dictionary_name_permitted_neighbours.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/textmining/clashing_synonyms.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/textmining/disease_approved_name_genes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/textmining/disease_synonym_names_genes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/textmining/english_dictionary_processed_genes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/textmining/force_approved_name.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/textmining/manually_added_protein_names.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/textmining/manually_removed_protein_names.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/textmining/undesired_protein_name_parts.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/FileManagerToolbarController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/GeneCountsTablesController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/InputListController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/InputListControllerOld.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/MainController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/MainControllerDrugMining.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/MainControllerNonStringent.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/MainControllerOld.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/MainTablesController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/MainTablesDrugsController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/NetworkController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/StatusBarController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/TestNetworkController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/_DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/detailsPane/ArticleDetailsController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/detailsPane/GeneFamilyDetailsController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/detailsPane/ProteinDetailsController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/summaryControllers/SummaryBiomarkerController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/summaryControllers/SummaryCustomController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/summaryControllers/SummaryProteolysisController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/summaryControllers/SummaryScoreController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/summaryControllers/SummaryScoreControllerOld.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/tables/ArticleTableController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/tables/DrugTableController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/tables/ProteaseTableController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DiscOmix/discomix/view/tables/ProteinTableController.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/5-pin-connector.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/audiotape.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/cloud.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/compact-disc-storage.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/computer-cpu.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/data-storage-1.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/data-storage-2.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/data-storage.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/database.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/download-arrow.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/download-from-cloud.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/file-folder.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/floppy-diskette.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/hard-disk.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/hdd-storage.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/ipod.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/photo-camera.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/save-icon.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/sd-card.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/sim-card-1.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/sim-card.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/smartphone.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/speaker.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/ssd-storage.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/temporal-data-storage.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/upload-to-cloud.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/usb-memory.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/usb-plug-1.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/usb-plug.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/eps/usb-symbol.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/font/Flaticon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/font/Flaticon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/font/Flaticon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/font/Flaticon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/font/_flaticon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/font/flaticon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/font/flaticon.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/license/license.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/5-pin-connector.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/audiotape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/compact-disc-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/computer-cpu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/data-storage-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/data-storage-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/data-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/database.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/download-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/download-from-cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/file-folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/floppy-diskette.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/hard-disk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/hdd-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/ipod.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/photo-camera.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/save-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/sd-card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/sim-card-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/sim-card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/smartphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/speaker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/ssd-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/temporal-data-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/upload-to-cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/usb-memory.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/usb-plug-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/usb-plug.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/png/usb-symbol.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/5-pin-connector.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/audiotape.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/cloud.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/compact-disc-storage.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/computer-cpu.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/data-storage-1.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/data-storage-2.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/data-storage.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/database.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/download-arrow.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/download-from-cloud.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/file-folder.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/floppy-diskette.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/hard-disk.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/hdd-storage.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/ipod.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/photo-camera.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/save-icon.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/sd-card.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/sim-card-1.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/sim-card.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/smartphone.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/speaker.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/ssd-storage.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/temporal-data-storage.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/upload-to-cloud.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/usb-memory.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/usb-plug-1.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/usb-plug.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/psd/usb-symbol.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/5-pin-connector.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/audiotape.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/compact-disc-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/computer-cpu.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/data-storage-1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/data-storage-2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/data-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/database.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/download-arrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/download-from-cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/file-folder.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/floppy-diskette.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/hard-disk.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/hdd-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/ipod.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/photo-camera.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/save-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/sd-card.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/sim-card-1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/sim-card.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/smartphone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/speaker.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/ssd-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/temporal-data-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/upload-to-cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/usb-memory.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/usb-plug-1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/usb-plug.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/discomics/icon/111310-data-storage/svg/usb-symbol.svg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$1.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$2.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$3.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$4.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$5.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$6.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock$InputBox.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock$InputBox.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyProgressDialog.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyProgressDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/TextMiningTask.class" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/TextMiningTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/discomics/controller/InputListController.java" afterPath="$PROJECT_DIR$/src/discomics/controller/InputListController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/discomics/controller/MyProgressDialog.java" afterPath="$PROJECT_DIR$/src/discomics/controller/MyProgressDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/discomics/controller/TextMiningTask.java" afterPath="$PROJECT_DIR$/src/discomics/controller/TextMiningTask.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,11 +883,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InputListController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InputListController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/discomics/controller/InputListController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="555" column="0" lean-forward="true" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="405" column="29" lean-forward="false" selection-start-line="405" selection-start-column="29" selection-end-line="405" selection-end-column="29" />
               <folding>
                 <element signature="e#6593#6602#0" expanded="true" />
               </folding>
@@ -90,52 +895,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainControllerDrugMining.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java">
+      <file leaf-file-name="build.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="56" column="72" lean-forward="false" selection-start-line="56" selection-start-column="72" selection-end-line="56" selection-end-column="72" />
+            <state relative-caret-position="435">
+              <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleCollectablePlys.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/discomics/model/ArticleCollectablePlys.java">
+      <file leaf-file-name="TextMiningTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/TextMiningTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="91" column="50" lean-forward="false" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
+            <state relative-caret-position="1125">
+              <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+              <folding>
+                <element signature="e#3316#3317#0" expanded="true" />
+                <element signature="e#3366#3367#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTablesController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainTablesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2115">
+              <caret line="152" column="27" lean-forward="false" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextMinedObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/discomics/model/TextMinedObject.java">
+      <file leaf-file-name="MyDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="64" column="39" lean-forward="false" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+            <state relative-caret-position="105">
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextMinedDrug.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/discomics/model/TextMinedDrug.java">
+      <file leaf-file-name="MyProgressDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyProgressDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="90">
+              <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2060#2061#0" expanded="true" />
+                <element signature="e#2124#2125#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleQueryable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/discomics/model/ArticleQueryable.java">
+      <file leaf-file-name="TasksProgressPane.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/TasksProgressPane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="675">
+              <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,42 +969,32 @@
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17100">
-              <caret line="1232" column="43" lean-forward="false" selection-start-line="1232" selection-start-column="43" selection-end-line="1232" selection-end-column="43" />
+            <state relative-caret-position="2535">
+              <caret line="202" column="8" lean-forward="false" selection-start-line="202" selection-start-column="8" selection-end-line="211" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#20593#20594#0" expanded="true" />
-                <element signature="e#20643#20644#0" expanded="true" />
-                <element signature="e#49829#49830#0" expanded="true" />
-                <element signature="e#49902#49903#0" expanded="true" />
                 <element signature="e#49938#49939#0" expanded="true" />
                 <element signature="e#50010#50011#0" expanded="true" />
-                <element signature="e#50057#50058#0" expanded="true" />
-                <element signature="e#50108#50109#0" expanded="true" />
-                <element signature="e#50145#50146#0" expanded="true" />
-                <element signature="e#50195#50196#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainControllerSettings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerSettings.java">
+      <file leaf-file-name="ProteinNomenclature.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/model/ProteinNomenclature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="2775">
+              <caret line="200" column="30" lean-forward="false" selection-start-line="200" selection-start-column="9" selection-end-line="200" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleCollectable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/discomics/model/ArticleCollectable.java">
+      <file leaf-file-name="ProteinName.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/model/ProteinName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1830">
-              <caret line="130" column="40" lean-forward="false" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
+            <state relative-caret-position="3945">
+              <caret line="277" column="30" lean-forward="false" selection-start-line="277" selection-start-column="30" selection-end-line="277" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -198,7 +1014,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>illegal</find>
       <find>clear</find>
       <find>nonstring</find>
       <find>greek</find>
@@ -228,6 +1043,7 @@
       <find>pubdate</find>
       <find>button</find>
       <find>hgncid</find>
+      <find>progress</find>
     </findStrings>
     <replaceStrings>
       <replace>new MyScene</replace>
@@ -276,12 +1092,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/discomics/application/GreekAlphabet.java" />
-        <option value="$PROJECT_DIR$/src/discomics/controller/DrugTableController.java" />
-        <option value="$PROJECT_DIR$/src/discomics/controller/ExceptionDialog.java" />
-        <option value="$PROJECT_DIR$/src/discomics/controller/MyAlert.java" />
-        <option value="$PROJECT_DIR$/src/discomics/controller/MyDialog.java" />
-        <option value="$PROJECT_DIR$/src/discomics/controller/MyProgressDialog.java" />
         <option value="$PROJECT_DIR$/src/discomics/controller/NetworkTabController.java" />
         <option value="$PROJECT_DIR$/src/discomics/model/ArticleFilterProteinName.java" />
         <option value="$PROJECT_DIR$/src/discomics/model/Drug.java" />
@@ -326,8 +1136,21 @@
         <option value="$PROJECT_DIR$/src/discomics/view/MainControllerSettings.fxml" />
         <option value="$PROJECT_DIR$/src/discomics/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/discomics/controller/MainControllerSettings.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/src/discomics/view/TasksProgress.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/view/TasksProgressPane.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/MyProgressDialog.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/TextMiningTask.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/TasksProgressPane.java" />
         <option value="$PROJECT_DIR$/src/discomics/controller/InputListController.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -335,9 +1158,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="996" />
+    <option name="x" value="55" />
+    <option name="y" value="66" />
+    <option name="width" value="1721" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -391,9 +1215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -404,26 +1226,47 @@
             <path>
               <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
               <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
               <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
               <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="DiscOmicsPS_jar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="discomics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="discomics" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="discomics" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="discomics" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,13 +1280,13 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.45747125" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="contains&#9;PSI&#9;JAVA://java.util.Collection#contains&#10;setOnMouse&#9;PSI&#9;JAVA://javafx.scene.Node#setOnMouseClicked&#10;StyledTextArea&#9;PSI&#9;JAVA://org.fxmisc.richtext.StyledTextArea&#10;InlineStyleTextArea&#9;PSI&#9;JAVA://org.fxmisc.richtext.InlineStyleTextArea&#10;inline&#9;PSI&#9;JAVA://org.fxmisc.richtext.InlineCssTextArea&#10;textarea&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_112/javafx-src.zip!/javafx/scene/control/TextArea.java&#10;EditableSt&#9;PSI&#9;JAVA://org.fxmisc.richtext.EditableStyledDocument&#10;InlineStyleTex&#9;PSI&#9;JAVA://org.fxmisc.richtext.InlineStyleTextArea&#10;InlineCss&#9;PSI&#9;JAVA://org.fxmisc.richtext.InlineCssTextArea" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
@@ -790,7 +1633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533127928000</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed input control on gene names or identifiers v2 (only alphanumeric characters allowed)">
+      <created>1533209791372</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533209791373</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -806,23 +1656,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="996" extended-state="0" />
+    <frame x="55" y="66" width="1721" height="948" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28064844" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27953216" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2696011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1904762" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="0" y="368" width="1440" height="363" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23040935" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="0" y="368" width="1440" height="363" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32599726" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15867944" sideWeight="0.6703755" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18106015" sideWeight="0.6703755" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920128" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -901,18 +1751,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="introduced global settings dialog specifying maximum articles to be retrieved and number of threads for the search" />
     <MESSAGE value="fixed input control on gene names or identifiers (only alphanumeric characters allowed)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed input control on gene names or identifiers (only alphanumeric characters allowed)" />
+    <MESSAGE value="fixed input control on gene names or identifiers v2 (only alphanumeric characters allowed)" />
+    <MESSAGE value="updated progress bar after main task initiation" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated progress bar after main task initiation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/discomics/model/ProteinName.java</url>
-          <line>400</line>
-          <properties />
-          <option name="timeStamp" value="101" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -933,72 +1777,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/discomics/controller/NetworkTabController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/model/ArticleFilterProteinName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="110" lean-forward="false" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/model/Drug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="99" column="113" lean-forward="false" selection-start-line="99" selection-start-column="113" selection-end-line="99" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/model/NetworkNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/model/ProteinName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="102" lean-forward="false" selection-start-line="22" selection-start-column="102" selection-end-line="22" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/view/FileManagerToolbarController.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="38" column="38" lean-forward="false" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/view/summaryControllers/SummaryCustomController.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/view/summaryControllers/SummaryBiomarkerController.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="158" column="37" lean-forward="false" selection-start-line="158" selection-start-column="37" selection-end-line="158" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/view/NetworkController.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -1059,13 +1837,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/model/ProteinNomenclature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/view/MainController.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1090,7 +1861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9526">
           <caret line="443" column="51" lean-forward="false" selection-start-line="443" selection-start-column="36" selection-end-line="443" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,14 +1912,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainTablesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2115">
-          <caret line="152" column="27" lean-forward="false" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerNonStringent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1161,14 +1923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3015">
           <caret line="211" column="30" lean-forward="false" selection-start-line="211" selection-start-column="23" selection-end-line="211" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/controller/NetworkController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7905">
-          <caret line="565" column="16" lean-forward="false" selection-start-line="565" selection-start-column="16" selection-end-line="565" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1198,7 +1952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4740">
           <caret line="408" column="0" lean-forward="false" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,7 +1959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,7 +1973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="65" column="61" lean-forward="false" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,7 +1980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,7 +2011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="590">
           <caret line="58" column="50" lean-forward="false" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,10 +2018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="82" column="50" lean-forward="false" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
-          <folding>
-            <element signature="e#3283#3284#0" expanded="false" />
-            <element signature="e#3342#3343#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1288,14 +2033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
           <caret line="91" column="50" lean-forward="false" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="56" column="72" lean-forward="false" selection-start-line="56" selection-start-column="72" selection-end-line="56" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -1324,26 +2061,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17100">
-          <caret line="1232" column="43" lean-forward="false" selection-start-line="1232" selection-start-column="43" selection-end-line="1232" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#20593#20594#0" expanded="true" />
-            <element signature="e#20643#20644#0" expanded="true" />
-            <element signature="e#49829#49830#0" expanded="true" />
-            <element signature="e#49902#49903#0" expanded="true" />
-            <element signature="e#49938#49939#0" expanded="true" />
-            <element signature="e#50010#50011#0" expanded="true" />
-            <element signature="e#50057#50058#0" expanded="true" />
-            <element signature="e#50108#50109#0" expanded="true" />
-            <element signature="e#50145#50146#0" expanded="true" />
-            <element signature="e#50195#50196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/view/MainControllerSettings.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -1360,18 +2077,140 @@
         <state relative-caret-position="315">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="56" column="72" lean-forward="false" selection-start-line="56" selection-start-column="72" selection-end-line="56" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/NetworkController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7905">
+          <caret line="565" column="16" lean-forward="false" selection-start-line="565" selection-start-column="16" selection-end-line="565" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/model/ProteinNomenclature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2775">
+          <caret line="200" column="30" lean-forward="false" selection-start-line="200" selection-start-column="9" selection-end-line="200" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/model/ProteinName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3945">
+          <caret line="277" column="30" lean-forward="false" selection-start-line="277" selection-start-column="30" selection-end-line="277" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2535">
+          <caret line="202" column="8" lean-forward="false" selection-start-line="202" selection-start-column="8" selection-end-line="211" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#49938#49939#0" expanded="true" />
+            <element signature="e#50010#50011#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/view/TasksProgressPane.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainTablesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2115">
+          <caret line="152" column="27" lean-forward="false" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyProgressDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2060#2061#0" expanded="true" />
+            <element signature="e#2124#2125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/TasksProgressPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/TextMiningTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="e#3316#3317#0" expanded="true" />
+            <element signature="e#3366#3367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/controller/InputListController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="555" column="0" lean-forward="true" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="405" column="29" lean-forward="false" selection-start-line="405" selection-start-column="29" selection-end-line="405" selection-end-column="29" />
           <folding>
             <element signature="e#6593#6602#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1442,7 +2281,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.apache.httpcomponents:httpclient:4.5.2</last-edited>
+          <last-edited>org.msgpack:msgpack:0.6.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

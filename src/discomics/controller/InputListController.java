@@ -219,6 +219,8 @@ public class InputListController {
 //                    }
 //                }
 
+                setProgressStep(0); // set progress to first step (protein info downloading)
+
                 ExecutorService executorService = Executors.newFixedThreadPool(NR_THREADS_EPMC);
                 final ArrayList<Future<Protein>> outputProteinFutures = new ArrayList<>();
 
@@ -259,6 +261,8 @@ public class InputListController {
                 model.getProteinCollection().postprocessProteinList(querySettings); // supplement pseudogenes with parental if user selects respective check box
                 model.getProteinCollection().buildInteractionNetwork(); // build interaction network of input proteins only (for centrality scores in SummaryScoreController
 
+
+                setProgressStep(1); // completed protein mining, continue to text-mining step
 
                 // set up executor services to start textmining on ePmc and Pubmed
                 ExecutorService executorService1 = Executors.newFixedThreadPool(NR_THREADS_EPMC);
@@ -321,6 +325,9 @@ public class InputListController {
                 for (TextMinedObject tmProt : model.getTextMinedProteins()) {
                     tmProt.finalisePostQuery(mainController.getMaxArticlesRetrieved());
                 }
+
+
+                setProgressStep(2); // proceed to gene family text-mining step
 
                 // START GENE FAMILY TEXT MINING
                 ExecutorService executorService4 = Executors.newFixedThreadPool(NR_THREADS_EPMC);
@@ -388,8 +395,12 @@ public class InputListController {
                     tmGeneFamily.finalisePostQuery(mainController.getMaxArticlesRetrieved());
 
 
+                setProgressStep(3); // finished text-mining, start protein-protein network retrieval step
+
                 // START NETWORK QUERY
                 model.constructAllPpis(); // construct all Protein Protein interaction networks
+
+                setProgressStep(4); // finished
 
                 stopWatch.stop();
                 return model;

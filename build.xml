@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
- 
+
 <project name="DiscOmicsPS" default="default" basedir="."
-  xmlns:fx="javafx:com.sun.javafx.tools.ant">
+  xmlns:fx="javafx:com.sun.javafx.tools.ant"
+  xmlns:ivy="antlib:org.apache.ivy.ant">
  
   <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home"/>
   <property name="build.src.dir" value="src"/>
   <property name="build.classes.dir" value="classes"/>
   <property name="build.dist.dir" value="dist"/>
+ 
+ <available classname="org.apache.ivy.Main" property="ivy.installed"/>
+ 
+ <target name="install-ivy" description="Install ivy" unless="ivy.installed">
+     <mkdir dir="${user.home}/.ant/lib"/>
+     <get dest="${user.home}/.ant/lib/ivy.jar" src="http://search.maven.org/remotecontent?filepath=org/apache/ivy/ivy/2.3.0/ivy-2.3.0.jar"/>
+     <fail message="Ivy has been installed. Run the build again"/>
+ </target>
+ 
+ <target name="resolve" depends="install-ivy" description="Use ivy to resolve classpaths">
+     <ivy:cachepath pathid="compile.path">
+         <dependency org="org.hibernate" name="hibernate" rev="3.2.7.ga" conf="default">
+             <exclude org="javax.transaction"/>
+         </dependency>
+     </ivy:cachepath>
+ </target>
  
   <target name="default" depends="clean,compile">
  
@@ -19,7 +36,7 @@
         mainClass="discomics.Main"/>
  
       <fx:resources id="appRes">
-        <fx:fileset dir="${build.dist.dir}" includes="DiscOmicsPS.jar"/>
+        <fx:fileset dir="dist" includes="DiscOmicsPS.jar"/>
       </fx:resources>
  
       <fx:jar destfile="${build.dist.dir}/DiscOmicsPS.jar">

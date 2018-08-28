@@ -77,4 +77,8 @@ abstract class TextMiningTask<T> extends Task<T> {
             alert.show();
         }
     }
+
+    void setProgressStep(int step) {
+        myProgressDialog.setProgress(step);
+    }
 }

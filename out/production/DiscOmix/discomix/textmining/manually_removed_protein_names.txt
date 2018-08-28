@@ -1,9 +1,0 @@
-FORMAT: first entry in line is approved HGNC gene name, all next entries in the line are terms to be removed from the nomenclature of the gene separated by the “|”. CAREFUL, these are case-sensitive (check HGNC)!!CA2|CA2
-TUBA1A|B-ALPHA-1
-TUBB4A|beta-5
-TUBB3|beta-4
-TUBB4B|beta2
-NOTCH1|notch
-SLC3A2|heavy chain
-CTSA|deaminase
-BCL2|apoptosis regulator
