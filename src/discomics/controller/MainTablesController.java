@@ -1,6 +1,5 @@
 package discomics.controller;
 
-import com.sun.istack.internal.Nullable;
 import discomics.model.*;
 import javafx.beans.binding.BooleanBinding;
 import javafx.collections.ListChangeListener;
@@ -395,7 +394,7 @@ public class MainTablesController implements TableControllable<Article> {
         }
     }
 
-    void initialiseViews(List<TextMinedObject> textMinedProteins, @Nullable List<TextMinedObject> textMinedGeneFamilies) {
+    void initialiseViews(List<TextMinedObject> textMinedProteins, List<TextMinedObject> textMinedGeneFamilies) {
         geneCountsTablesController.getProteinTableController().initialiseTableWithEntries(textMinedProteins);
         geneFamilyCountsTablesController.getProteinTableController().initialiseTableWithEntries(textMinedGeneFamilies);
         initialiseApplicationViews();

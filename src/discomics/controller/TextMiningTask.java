@@ -9,12 +9,13 @@ import java.util.List;
 
 abstract class TextMiningTask<T> extends Task<T> {
     private Stage parent;
-    private final MyProgressDialog myProgressDialog;
+    private final MyMainTaskProgressDialog myProgressDialog;
     final StopWatch stopWatch = new StopWatch();
 
     TextMiningTask(Stage parent) {
         this.parent = parent;
-        myProgressDialog = new MyProgressDialog(this, "Downloading data ...", parent);
+
+        myProgressDialog = new MyMainTaskProgressDialog(parent, this, "Downloading data ...");
 
         this.setOnScheduled(event -> {
             myProgressDialog.show();

@@ -112,7 +112,7 @@ public class MainControllerNonStringent {
             }
         };
 
-        final MyProgressDialog myProgressDialog = new MyProgressDialog(searchTask, "Downloading data");
+        final MyProgressDialog myProgressDialog = new MyProgressDialog(nonStringentMainStage, searchTask, "Downloading data");
         searchTask.setOnScheduled(event -> {
             myProgressDialog.show();
         });

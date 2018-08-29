@@ -1,9 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="DiscOmicsPS:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/DiscOmicsPS_jar</output-path>
-    <properties id="ant-preprocessing">
-      <options enabled="true" />
-    </properties>
     <root id="archive" name="DiscOmix.jar">
       <element id="module-output" name="DiscOmicsPS" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/6.2.0/lucene-core-6.2.0.jar" path-in-jar="/" />

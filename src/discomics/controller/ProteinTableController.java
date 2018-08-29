@@ -1,6 +1,5 @@
 package discomics.controller;
 
-import com.sun.istack.internal.Nullable;
 import discomics.application.AlphanumComparator;
 import discomics.model.IoModel;
 import discomics.model.TextMinedObject;
@@ -192,7 +191,7 @@ public class ProteinTableController implements TableControllable<TextMinedObject
         nonStringentSearchMenuButton.setDisable(val);
     }
 
-    void initialiseTableWithEntries(@Nullable List<TextMinedObject> tmObjects) {
+    void initialiseTableWithEntries(List<TextMinedObject> tmObjects) {
         if (tmObjects != null) {
             proteinTableModel.clearAndUpdateTable(tmObjects);
         }

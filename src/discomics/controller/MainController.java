@@ -835,7 +835,7 @@ public class MainController implements TableControllable {
             }
         };
 
-        final MyProgressDialog myProgressDialog = new MyProgressDialog(openFileTask, "Opening file");
+        final MyProgressDialog myProgressDialog = new MyProgressDialog(mainStage, openFileTask, "Opening file");
 
         openFileTask.setOnSucceeded(event -> {
             try {
@@ -902,7 +902,7 @@ public class MainController implements TableControllable {
             }
         };
 
-        final MyProgressDialog myProgressDialog = new MyProgressDialog(saveFileTask, "Saving to file");
+        final MyProgressDialog myProgressDialog = new MyProgressDialog(mainStage, saveFileTask, "Saving to file");
 
         saveFileTask.setOnFailed(event -> {
             myProgressDialog.close();

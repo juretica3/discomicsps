@@ -5,6 +5,8 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 import java.io.File;
+import java.io.InputStream;
+import java.net.URL;
 
 public class TasksProgressPane {
 
@@ -17,23 +19,17 @@ public class TasksProgressPane {
     @FXML
     private ImageView stepFourImg;
 
-
-    public TasksProgressPane() {
-
-    }
-
     void init() {
         setCurrentStep(-1); // initialise; can be any other integer besides 0, 1, 2 or 3
     }
 
 
     void setCurrentStep(int step) {
-        File currentStepImgFile = new File("resources/discomics/icon/right_arrow_icon.png");
-        Image currentStepImg = new Image(currentStepImgFile.toURI().toString());
+        InputStream currentStepImgIs = Thread.currentThread().getContextClassLoader().getResourceAsStream("discomics/icon/right_arrow_icon.png");
+        Image currentStepImg = new Image(currentStepImgIs);
 
-        File completedStepImgFile = new File("resources/discomics/icon/tick_icon.png");
-        Image completedStepImg = new Image(completedStepImgFile.toURI().toString());
-
+        InputStream completedStepImgIs = Thread.currentThread().getContextClassLoader().getResourceAsStream("discomics/icon/tick_icon.png");
+        Image completedStepImg = new Image(completedStepImgIs);
 
         if (step == 0) {
             stepOneImg.setImage(currentStepImg);

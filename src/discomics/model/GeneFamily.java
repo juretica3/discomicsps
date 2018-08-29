@@ -1,7 +1,5 @@
 package discomics.model;
 
-import com.sun.istack.internal.Nullable;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +19,7 @@ public class GeneFamily implements TextMinableInput, Serializable {
     }
 
     @Override
-    public List<String> getTextMiningNames(@Nullable QuerySettings querySettings) {
+    public List<String> getTextMiningNames(QuerySettings querySettings) {
         List<String> output = new ArrayList<>();
         output.add(this.familyName.toLowerCase());
 

@@ -1,6 +1,5 @@
 package discomics.model;
 
-import com.sun.istack.internal.Nullable;
 import discomics.application.DownloadFileHTTP;
 import discomics.application.MyLogger;
 import org.apache.log4j.varia.NullAppender;
@@ -1016,7 +1015,7 @@ public class Protein implements TextMinableInput, Serializable {
     }
 
     @Override
-    public List<String> getTextMiningNames(@Nullable QuerySettings querySettings) {
+    public List<String> getTextMiningNames(QuerySettings querySettings) {
         List<String> outputNames = new ArrayList<>();
         if (querySettings == null || !querySettings.isSearchOnlyGeneName()) {
             outputNames.addAll(proteinNomenclature.getNamesOnlineQuery());
