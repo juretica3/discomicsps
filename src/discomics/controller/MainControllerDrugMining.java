@@ -18,7 +18,7 @@ public class MainControllerDrugMining {
     private MainTablesDrugsController mainTablesDrugsController; // encapsulated controller
 
 
-    public void init(MainController mainController, Stage thisStage) throws Exception {
+    public void init(MainController mainController, Stage thisStage) {
         this.mainController = mainController;
         this.mainDrugMiningControllerStage = thisStage;
 

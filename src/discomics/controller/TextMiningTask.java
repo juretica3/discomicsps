@@ -9,20 +9,21 @@ import java.util.List;
 
 abstract class TextMiningTask<T> extends Task<T> {
     private Stage parent;
-    private final MyMainTaskProgressDialog myProgressDialog;
+    private MyProgressDialog myProgressDialog = null;
     final StopWatch stopWatch = new StopWatch();
 
     TextMiningTask(Stage parent) {
         this.parent = parent;
 
-        myProgressDialog = new MyMainTaskProgressDialog(parent, this, "Downloading data ...");
-
         this.setOnScheduled(event -> {
-            myProgressDialog.show();
+            if (myProgressDialog != null)
+                myProgressDialog.show();
         });
 
         this.setOnFailed(event -> {
-            myProgressDialog.close();
+            if (myProgressDialog != null)
+                myProgressDialog.close();
+
             getException().printStackTrace();
             // socket exceptions are thrown by all downloadParseArticles tasks in DownloadFileHTTP and propagated to the top if internet connectivity interrupted
             if (getException().getLocalizedMessage().equals("java.net.SocketException")) {
@@ -41,7 +42,8 @@ abstract class TextMiningTask<T> extends Task<T> {
         });
 
         this.setOnCancelled(event -> {
-            myProgressDialog.close();
+            if (myProgressDialog != null)
+                myProgressDialog.close();
 
             Alert alert = new MyAlert(Alert.AlertType.WARNING, parent);
             alert.setHeaderText("Interrupted");
@@ -52,7 +54,8 @@ abstract class TextMiningTask<T> extends Task<T> {
 
     // called by setOnSucceeded listener set after instantiation of the class
     void onSucceeded(List<String> failedCases) {
-        myProgressDialog.close();
+        if (myProgressDialog != null)
+            myProgressDialog.close();
 
         long timeSec = stopWatch.getTime() / 1000;
         int timeMin = (int) Math.floor(timeSec / 60);
@@ -80,6 +83,14 @@ abstract class TextMiningTask<T> extends Task<T> {
     }
 
     void setProgressStep(int step) {
-        myProgressDialog.setProgress(step);
+        if (myProgressDialog != null) {
+            if (myProgressDialog instanceof MyMainTaskProgressDialog) {
+                ((MyMainTaskProgressDialog) myProgressDialog).setProgress(step);
+            }
+        }
+    }
+
+    void setProgressDialog(MyProgressDialog myProgressDialog) {
+        this.myProgressDialog = myProgressDialog;
     }
 }

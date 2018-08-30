@@ -45,6 +45,15 @@ public class InputListController {
         }
     }};
 
+    private static List<String> connectiveTissueContaminantGenes = new ArrayList<String>() {{
+        try {
+            InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream("discomics/connective_tissue_contaminant_geneID.txt");
+            addAll(IOUtils.readLines(is));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }};
+
     private static List<String[]> hgncDatabaseFull = new ArrayList<String[]>() {{
         try {
             InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream("discomics/db/hgnc_20171219_processed.txt");
@@ -407,9 +416,7 @@ public class InputListController {
             }
         };
 
-        textMiningTask.setOnSucceeded(event ->
-
-        {
+        textMiningTask.setOnSucceeded(event -> {
             try {
                 IoModel model = textMiningTask.get();
                 if (model != null) {
@@ -426,6 +433,11 @@ public class InputListController {
             }
         });
 
+        // initialise progress dialog
+        MyProgressDialog myProgressDialog = new MyMainTaskProgressDialog(mainController.getMainStage(), textMiningTask, "Downloading data ...");
+        textMiningTask.setProgressDialog(myProgressDialog);
+
+        // input check 1: genes contianing non-alphanumeric characters
         List<String> wrongInputStructureGenes = checkInputGeneStructure(proteinCollection.getInputProteinSet());
 
         if (wrongInputStructureGenes.size() > 0) {
@@ -463,38 +475,45 @@ public class InputListController {
             }
         }
 
-        List<String> superCommonGenes = checkInputGenesForSuperCommon(proteinCollection.getInputProteinSet());
+        // input check 2; contamination, super common plasma genes
+
+
+        List<String> superCommonGenes = checkPlasmaGenes(proteinCollection.getInputProteinSet());
+
 
         if (superCommonGenes.size() > 0) {
-            Alert alert = new MyAlert(Alert.AlertType.INFORMATION, this.inputListStage);
-            alert.setTitle("Information");
-            alert.setHeaderText(null);
-            String msgRoot = "The following entered genes are among the most abundant constituents of human plasma. " +
+            String alertMessage = "The following entered genes are among the most abundant constituents of human plasma. " +
                     "Their presence in the query set might skew the results.\n\n";
-            StringBuilder sb = new StringBuilder();
-            sb.append(msgRoot);
-            for (int i = 0; i < superCommonGenes.size(); i++) {
-                String superCommonGene = superCommonGenes.get(i);
-                sb.append(superCommonGene);
-                if (i != (superCommonGenes.size() - 1))
-                    sb.append("\n");
-            }
-            alert.setContentText(sb.toString());
-
-            ButtonType buttonTypeOne = new ButtonType("Remove Genes");
-            ButtonType buttonTypeTwo = new ButtonType("Keep Genes");
-            ButtonType buttonTypeCancel = new ButtonType("Cancel", ButtonBar.ButtonData.CANCEL_CLOSE);
-
-            alert.getButtonTypes().setAll(buttonTypeOne, buttonTypeTwo, buttonTypeCancel);
-
+            MyAlertContamination alert = new MyAlertContamination(Alert.AlertType.INFORMATION, this.inputListStage, superCommonGenes, alertMessage);
             Optional<ButtonType> result = alert.showAndWait();
 
             if (result.isPresent()) {
-                if (result.get() == buttonTypeOne) { // if button type two (not present) then do nothing, so proceed to end of method where search is initiated
+                if (result.get() == alert.getRemoveGeneButton()) { // if 'KEEP' button pressed then do nothing, so proceed to end of method where search is initiated
                     for (String superCommonGene : superCommonGenes) {
                         proteinCollection.removeInputProtein(superCommonGene);
                     }
-                } else if (result.get() == buttonTypeCancel) {
+                } else if (result.get() == alert.getCancelButton()) {
+                    return; // return from method without running the search
+                }
+            } else {
+                return; // return without running search
+            }
+        }
+
+        // input check 3; contamination, connective tissue keratins
+        List<String> connectiveContaminantGenes = checkConnectiveContaminants(proteinCollection.getInputProteinSet());
+
+        if (connectiveContaminantGenes.size() > 0) {
+            String alertMessage2 = "The following entered genes may indicate sample contamination with connective tissue.\n\n";
+            MyAlertContamination alert2 = new MyAlertContamination(Alert.AlertType.INFORMATION, this.inputListStage, connectiveContaminantGenes, alertMessage2);
+            Optional<ButtonType> result = alert2.showAndWait();
+
+            if (result.isPresent()) {
+                if (result.get() == alert2.getRemoveGeneButton()) { // if button type two (not present) then do nothing, so proceed to end of method where search is initiated
+                    for (String wrongGene : wrongInputStructureGenes) {
+                        proteinCollection.removeInputProtein(wrongGene);
+                    }
+                } else if (result.get() == alert2.getCancelButton()) {
                     return; // return from method without running the search
                 }
             } else {
@@ -556,7 +575,7 @@ public class InputListController {
     // returns all genes that do not have correct input structure (only alphanumeric characters are allowed)
     private List<String> checkInputGeneStructure(Set<String> inputGenes) {
         List<String> output = new ArrayList<>();
-        String regexPunctuation = "^[a-zA-Z0-9]*$";
+        String regexPunctuation = "^[a-zA-Z0-9\\-]*$";
         Pattern regexPattern = Pattern.compile(regexPunctuation);
 
         for (String inputGene : inputGenes) {
@@ -568,16 +587,23 @@ public class InputListController {
         return output;
     }
 
-    private List<String> checkInputGenesForSuperCommon(Set<String> inputGenes) {
+    private List<String> checkPlasmaGenes(Set<String> inputGenes) {
+        return findInGeneList(inputGenes, superCommonGenes);
+    }
+
+    private List<String> checkConnectiveContaminants(Set<String> inputGenes) {
+        return findInGeneList(inputGenes, connectiveTissueContaminantGenes);
+    }
+
+    private List<String> findInGeneList(Set<String> parentList, List<String> toBeSearched) {
         List<String> output = new ArrayList<>(); // all genes in input list that are super common
-        for (String inputGene : inputGenes) {
-            if (superCommonGenes.contains(inputGene)) {
+        for (String inputGene : parentList) {
+            if (toBeSearched.contains(inputGene)) {
                 output.add(inputGene);
             }
         }
         return output;
     }
-
 
     @FXML
     private void proteolysisCheckBoxAction() {

@@ -408,7 +408,6 @@ public class MainController implements TableControllable {
         List<TextMinedObject> tmObjects = model.getTextMinedProteins().stream()
                 .filter(tmProt -> !tmProt.getArticleCollectablePlys().getPhysicalInteractions().isEmpty())
                 .collect(Collectors.toList());
-        //model.getProteinDrugProteolysisStringentNetwork().get
 
         showNetwork(model.getProteinDrugProteolysisStringentNetwork(), tmObjects, 3); // initialise and showStage network view
     }
@@ -514,18 +513,14 @@ public class MainController implements TableControllable {
                 .getProteinTableController().getTable().getSelectionModel().getSelectedItems();
 
         TextMiningTask<List<TextMinedObject>> textMiningTask = new TextMiningTask<List<TextMinedObject>>(this.mainControllerDrugMining.getStage()) {
+
             @Override
-            protected List<TextMinedObject> call() throws Exception {
+            protected List<TextMinedObject> call() {
                 List<TextMinedObject> textMinedDrugs = new ArrayList<>();
 
                 for (TextMinedObject tmObject : selectedTmObjects) {
                     Protein selectedProtein = ((TextMinedProtein) tmObject).getTextMinableInput();
                     List<TextMinedObject> outputTextMinedDrugs = mainControllerDrugMining.textMineDrugs(selectedProtein, model.getCustomSearchTerms());
-                    for (TextMinedObject tmDrug : textMinedDrugs) {
-                        if (tmDrug.getTextMinableInput().getMainName().toLowerCase().contains("pamidronate")) {
-                            System.out.println("Nr articles: " + tmDrug.getArticleCollectableCust().getArticleCollection().size());
-                        }
-                    }
                     textMinedDrugs.addAll(outputTextMinedDrugs);
                 }
 
@@ -551,6 +546,9 @@ public class MainController implements TableControllable {
                 exceptionDialog.showAndWait();
             }
         });
+
+        MyProgressDialog myProgressDialog = new MyProgressDialog(mainStage, textMiningTask, "Downloading data ...");
+        textMiningTask.setProgressDialog(myProgressDialog);
 
         executorService.submit(textMiningTask); // submit task
 

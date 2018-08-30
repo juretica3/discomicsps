@@ -6,47 +6,36 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/discomics/controller/MainController.java" line="1242" />
+    <bookmark url="file://$PROJECT_DIR$/src/discomics/controller/MainController.java" line="1240" />
     <bookmark url="file://$PROJECT_DIR$/src/discomics/model/ProteinName.java" line="52" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/discomics/controller/MyMainTaskProgressDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/DiscOmicsPS_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/DiscOmicsPS_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/discomics/controller/MyAlertContamination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/_DS_Store" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/_DS_Store" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/_DS_Store" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/_DS_Store" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ArticleTableController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ArticleTableController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock$InputBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock$InputBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$CustomBiomarkerDefinitionDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$CustomBiomarkerDefinitionDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$CustomBiomarkerDefinitionDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$CustomBiomarkerDefinitionDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$LogWindow$MyLabel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$LogWindow$MyLabel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$LogWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$LogWindow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainControllerDrugMining.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainControllerDrugMining.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainControllerNonStringent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainControllerNonStringent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyProgressDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyProgressDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ProteinTableController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ProteinTableController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/TextMiningTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/TextMiningTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/GeneFamily.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/GeneFamily.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$StringEntryForParsing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$StringEntryForParsing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/controller/ArticleTableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/ArticleTableController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/controller/InputListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/InputListController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/discomics/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/discomics/controller/MainControllerNonStringent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/MainControllerNonStringent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/discomics/controller/MainTablesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/MainTablesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/discomics/controller/MyProgressDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/MyProgressDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/discomics/controller/ProteinTableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/ProteinTableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/discomics/controller/TasksProgressPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/TasksProgressPane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/discomics/controller/TextMiningTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/TextMiningTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/discomics/model/GeneFamily.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/model/GeneFamily.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/discomics/model/Protein.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/model/Protein.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/view/TasksProgressPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/view/TasksProgressPane.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,29 +100,30 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="159" />
+          <entry key="java" value="1438" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="159" />
+          <entry key="JAVA" value="1438" />
         </counts>
       </usages-collector>
     </session>
@@ -144,114 +134,150 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainTablesController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5790">
-              <caret line="396" column="66" selection-start-line="396" selection-start-column="66" selection-end-line="396" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyProgressDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/discomics/controller/TableControllable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/discomics/model/Protein.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="5505">
+              <caret line="380" selection-start-line="380" selection-end-line="380" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/ArticleTableController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="111" column="50" selection-start-line="111" selection-start-column="50" selection-end-line="111" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerNonStringent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1327">
+              <caret line="114" column="127" selection-start-line="114" selection-start-column="127" selection-end-line="114" selection-end-column="127" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7515">
+              <caret line="552" column="62" selection-start-line="552" selection-start-column="62" selection-end-line="552" selection-end-column="62" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#39281#39282#0" expanded="true" />
+                <element signature="e#39313#39314#0" expanded="true" />
+                <element signature="e#47974#47975#0" expanded="true" />
+                <element signature="e#48006#48007#0" expanded="true" />
+                <element signature="e#48064#48065#0" expanded="true" />
+                <element signature="e#48115#48116#0" expanded="true" />
+                <element signature="e#48154#48155#0" expanded="true" />
+                <element signature="e#48189#48190#0" expanded="true" />
+                <element signature="e#48251#48252#0" expanded="true" />
+                <element signature="e#48299#48300#0" expanded="true" />
+                <element signature="e#48333#48334#0" expanded="true" />
+                <element signature="e#48361#48362#0" expanded="true" />
+                <element signature="e#48404#48405#0" expanded="true" />
+                <element signature="e#48438#48439#0" expanded="true" />
+                <element signature="e#48499#48500#0" expanded="true" />
+                <element signature="e#48542#48543#0" expanded="true" />
+                <element signature="e#48608#48609#0" expanded="true" />
+                <element signature="e#48657#48658#0" expanded="true" />
+                <element signature="e#48700#48701#0" expanded="true" />
+                <element signature="e#48741#48742#0" expanded="true" />
+                <element signature="e#48799#48800#0" expanded="true" />
+                <element signature="e#48853#48854#0" expanded="true" />
+                <element signature="e#48901#48902#0" expanded="true" />
+                <element signature="e#48948#48949#0" expanded="true" />
+                <element signature="e#48998#48999#0" expanded="true" />
+                <element signature="e#49047#49048#0" expanded="true" />
+                <element signature="e#49098#49099#0" expanded="true" />
+                <element signature="e#49148#49149#0" expanded="true" />
+                <element signature="e#49198#49199#0" expanded="true" />
+                <element signature="e#49247#49248#0" expanded="true" />
+                <element signature="e#49298#49299#0" expanded="true" />
+                <element signature="e#49348#49349#0" expanded="true" />
+                <element signature="e#49402#49403#0" expanded="true" />
+                <element signature="e#49456#49457#0" expanded="true" />
+                <element signature="e#49486#49487#0" expanded="true" />
+                <element signature="e#49540#49541#0" expanded="true" />
+                <element signature="e#49589#49590#0" expanded="true" />
+                <element signature="e#49662#49663#0" expanded="true" />
+                <element signature="e#49698#49699#0" expanded="true" />
+                <element signature="e#49770#49771#0" expanded="true" />
+                <element signature="e#49817#49818#0" expanded="true" />
+                <element signature="e#49868#49869#0" expanded="true" />
+                <element signature="e#49905#49906#0" expanded="true" />
+                <element signature="e#49955#49956#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/discomics/model/GeneFamily.java">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/TextMiningTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+              <folding>
+                <element signature="e#3699#3700#0" expanded="true" />
+                <element signature="e#3755#3756#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyAlert.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/discomics/controller/ProteinTableController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2610">
-              <caret line="193" column="36" selection-start-line="193" selection-start-column="36" selection-end-line="193" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/discomics/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyMainTaskProgressDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
-              </folding>
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/InputListController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="495" column="76" lean-forward="true" selection-start-line="495" selection-start-column="76" selection-end-line="495" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyAlertContamination.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1327#1328#0" expanded="true" />
+                <element signature="e#1366#1367#0" expanded="true" />
+                <element signature="e#1412#1413#0" expanded="true" />
+                <element signature="e#1450#1451#0" expanded="true" />
+                <element signature="e#1493#1494#0" expanded="true" />
+                <element signature="e#1528#1529#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/discomics/controller/TasksProgressPane.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -346,7 +372,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/discomics/model/Drug.java" />
         <option value="$PROJECT_DIR$/src/discomics/model/NetworkNode.java" />
         <option value="$PROJECT_DIR$/src/discomics/model/ProteinName.java" />
         <option value="$PROJECT_DIR$/src/discomics/model/ProteinNomenclature.java" />
@@ -369,7 +394,6 @@
         <option value="$PROJECT_DIR$/src/discomics/controller/NetworkController.java" />
         <option value="$PROJECT_DIR$/src/discomics/model/ArticleQueryableEPmc.java" />
         <option value="$PROJECT_DIR$/src/discomics/model/Article.java" />
-        <option value="$PROJECT_DIR$/src/discomics/controller/ArticleTableController.java" />
         <option value="$PROJECT_DIR$/src/discomics/controller/DetailsProteinController.java" />
         <option value="$PROJECT_DIR$/src/discomics/model/NetworkEdge.java" />
         <option value="$PROJECT_DIR$/src/discomics/view/MainSettingsController.fxml" />
@@ -380,23 +404,25 @@
         <option value="$PROJECT_DIR$/src/discomics/model/ArticleCollectablePlys.java" />
         <option value="$PROJECT_DIR$/src/discomics/model/TextMinedObject.java" />
         <option value="$PROJECT_DIR$/src/discomics/model/TextMinedDrug.java" />
-        <option value="$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java" />
         <option value="$PROJECT_DIR$/src/discomics/view/MainControllerSettings.fxml" />
         <option value="$PROJECT_DIR$/src/discomics/controller/MainControllerSettings.java" />
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/src/discomics/view/TasksProgress.fxml" />
         <option value="$PROJECT_DIR$/src/discomics/view/TasksProgressPane.fxml" />
-        <option value="$PROJECT_DIR$/src/discomics/controller/InputListController.java" />
-        <option value="$PROJECT_DIR$/src/discomics/controller/MainControllerNonStringent.java" />
-        <option value="$PROJECT_DIR$/src/discomics/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/discomics/controller/MyMainTaskProgressDialog.java" />
-        <option value="$PROJECT_DIR$/src/discomics/controller/TextMiningTask.java" />
         <option value="$PROJECT_DIR$/src/discomics/controller/MyProgressDialog.java" />
         <option value="$PROJECT_DIR$/src/discomics/model/Protein.java" />
         <option value="$PROJECT_DIR$/src/discomics/model/GeneFamily.java" />
         <option value="$PROJECT_DIR$/src/discomics/controller/MainTablesController.java" />
         <option value="$PROJECT_DIR$/src/discomics/controller/ProteinTableController.java" />
         <option value="$PROJECT_DIR$/src/discomics/controller/TasksProgressPane.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/ArticleTableController.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/MainControllerNonStringent.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/TextMiningTask.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/MyAlertContamination.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/InputListController.java" />
       </list>
     </option>
   </component>
@@ -404,7 +430,7 @@
     <treeState />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="47" />
     <option name="y" value="34" />
     <option name="width" value="1721" />
@@ -453,6 +479,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -481,11 +509,6 @@
             <path>
               <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
               <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -501,12 +524,25 @@
               <item name="discomics" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="discomics" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="discomics" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="tables" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -528,7 +564,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="contains&#9;PSI&#9;JAVA://java.util.Collection#contains&#10;setOnMouse&#9;PSI&#9;JAVA://javafx.scene.Node#setOnMouseClicked&#10;StyledTextArea&#9;PSI&#9;JAVA://org.fxmisc.richtext.StyledTextArea&#10;InlineStyleTextArea&#9;PSI&#9;JAVA://org.fxmisc.richtext.InlineStyleTextArea&#10;inline&#9;PSI&#9;JAVA://org.fxmisc.richtext.InlineCssTextArea&#10;textarea&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_112/javafx-src.zip!/javafx/scene/control/TextArea.java&#10;EditableSt&#9;PSI&#9;JAVA://org.fxmisc.richtext.EditableStyledDocument&#10;InlineStyleTex&#9;PSI&#9;JAVA://org.fxmisc.richtext.InlineStyleTextArea&#10;InlineCss&#9;PSI&#9;JAVA://org.fxmisc.richtext.InlineCssTextArea" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535478987590" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535621069318" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -631,7 +667,9 @@
       <Port>5050</Port>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -663,6 +701,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -719,6 +758,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -800,14 +840,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="34" width="1721" height="948" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="987" extended-state="6" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Image Layers" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.18463372" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.124068156" />
       <window_info id="Favorites" order="5" weight="0.3298887" />
       <window_info id="Structure" order="6" weight="0.25" />
       <window_info id="Palette&#9;" order="7" />
@@ -820,8 +859,8 @@
       <window_info anchor="bottom" id="Changes" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Problems" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.2801303" />
-      <window_info anchor="bottom" x="0" y="368" width="1440" height="363" id="Run" order="10" weight="0.2301402" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.27946916" />
+      <window_info anchor="bottom" x="0" y="368" width="1440" height="363" id="Run" order="10" visible="true" weight="0.17765363" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -904,58 +943,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/discomics/view/InputListControllerOld.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="108" column="44" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/view/MainControllerOld.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="25" column="98" selection-start-line="25" selection-start-column="98" selection-end-line="25" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/view/summaryControllers/SummaryProteolysisController.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/view/MainController.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/view/MainMenuBar.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="148" selection-start-line="12" selection-start-column="148" selection-end-line="12" selection-end-column="148" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/model/IoModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9526">
           <caret line="443" column="51" selection-start-line="443" selection-start-column="36" selection-end-line="443" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/view/InputListController.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1906">
-          <caret line="100" column="44" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -970,14 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5346">
           <caret line="261" column="6" selection-start-line="261" selection-start-column="4" selection-end-line="280" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/view/tables/ProteinTableController.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="140" selection-start-line="13" selection-start-column="140" selection-end-line="13" selection-end-column="140" />
         </state>
       </provider>
     </entry>
@@ -1037,13 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/controller/ArticleTableController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="77" column="35" selection-start-line="76" selection-start-column="21" selection-end-line="77" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/controller/DetailsProteinController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5">
@@ -1100,28 +1076,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/view/MainControllerSettings.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="37" column="53" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="56" column="72" selection-start-line="56" selection-start-column="72" selection-end-line="56" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerSettings.java" />
     <entry file="file://$PROJECT_DIR$/src/discomics/controller/NetworkController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7905">
@@ -1143,59 +1098,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/controller/InputListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="405" column="29" selection-start-line="405" selection-start-column="29" selection-end-line="405" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.xml" />
     <entry file="file://$PROJECT_DIR$/build.xml" />
-    <entry file="file://$PROJECT_DIR$/src/discomics/view/TasksProgressPane.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/controller/MySimpleProgressDialog.java" />
-    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="838" selection-start-line="838" selection-end-line="838" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/controller/TextMiningTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerNonStringent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainTablesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5790">
-          <caret line="396" column="66" selection-start-line="396" selection-start-column="66" selection-end-line="396" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="8448">
+          <caret line="395" selection-start-line="395" selection-end-line="395" />
         </state>
       </provider>
     </entry>
@@ -1206,49 +1115,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyProgressDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/discomics/model/Protein.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/model/GeneFamily.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/controller/ProteinTableController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2610">
-          <caret line="193" column="36" selection-start-line="193" selection-start-column="36" selection-end-line="193" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="4004">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="66">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1258,7 +1141,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyMainTaskProgressDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="440">
           <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1270,18 +1153,147 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/controller/TableControllable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="198">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyProgressDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/model/Protein.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5505">
+          <caret line="380" selection-start-line="380" selection-end-line="380" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/ArticleTableController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="111" column="50" selection-start-line="111" selection-start-column="50" selection-end-line="111" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7515">
+          <caret line="552" column="62" selection-start-line="552" selection-start-column="62" selection-end-line="552" selection-end-column="62" />
+          <folding>
+            <element signature="e#39281#39282#0" expanded="true" />
+            <element signature="e#39313#39314#0" expanded="true" />
+            <element signature="e#47974#47975#0" expanded="true" />
+            <element signature="e#48006#48007#0" expanded="true" />
+            <element signature="e#48064#48065#0" expanded="true" />
+            <element signature="e#48115#48116#0" expanded="true" />
+            <element signature="e#48154#48155#0" expanded="true" />
+            <element signature="e#48189#48190#0" expanded="true" />
+            <element signature="e#48251#48252#0" expanded="true" />
+            <element signature="e#48299#48300#0" expanded="true" />
+            <element signature="e#48333#48334#0" expanded="true" />
+            <element signature="e#48361#48362#0" expanded="true" />
+            <element signature="e#48404#48405#0" expanded="true" />
+            <element signature="e#48438#48439#0" expanded="true" />
+            <element signature="e#48499#48500#0" expanded="true" />
+            <element signature="e#48542#48543#0" expanded="true" />
+            <element signature="e#48608#48609#0" expanded="true" />
+            <element signature="e#48657#48658#0" expanded="true" />
+            <element signature="e#48700#48701#0" expanded="true" />
+            <element signature="e#48741#48742#0" expanded="true" />
+            <element signature="e#48799#48800#0" expanded="true" />
+            <element signature="e#48853#48854#0" expanded="true" />
+            <element signature="e#48901#48902#0" expanded="true" />
+            <element signature="e#48948#48949#0" expanded="true" />
+            <element signature="e#48998#48999#0" expanded="true" />
+            <element signature="e#49047#49048#0" expanded="true" />
+            <element signature="e#49098#49099#0" expanded="true" />
+            <element signature="e#49148#49149#0" expanded="true" />
+            <element signature="e#49198#49199#0" expanded="true" />
+            <element signature="e#49247#49248#0" expanded="true" />
+            <element signature="e#49298#49299#0" expanded="true" />
+            <element signature="e#49348#49349#0" expanded="true" />
+            <element signature="e#49402#49403#0" expanded="true" />
+            <element signature="e#49456#49457#0" expanded="true" />
+            <element signature="e#49486#49487#0" expanded="true" />
+            <element signature="e#49540#49541#0" expanded="true" />
+            <element signature="e#49589#49590#0" expanded="true" />
+            <element signature="e#49662#49663#0" expanded="true" />
+            <element signature="e#49698#49699#0" expanded="true" />
+            <element signature="e#49770#49771#0" expanded="true" />
+            <element signature="e#49817#49818#0" expanded="true" />
+            <element signature="e#49868#49869#0" expanded="true" />
+            <element signature="e#49905#49906#0" expanded="true" />
+            <element signature="e#49955#49956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/TextMiningTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+          <folding>
+            <element signature="e#3699#3700#0" expanded="true" />
+            <element signature="e#3755#3756#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyAlert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/discomics/controller/TasksProgressPane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerNonStringent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1327">
+          <caret line="114" column="127" selection-start-line="114" selection-start-column="127" selection-end-line="114" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyAlertContamination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1366#1367#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/InputListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="495" column="76" lean-forward="true" selection-start-line="495" selection-start-column="76" selection-end-line="495" selection-end-column="76" />
         </state>
       </provider>
     </entry>

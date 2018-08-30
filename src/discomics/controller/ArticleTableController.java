@@ -109,7 +109,7 @@ public class ArticleTableController implements TableControllable<Article> {
         citedByTableColumn.setCellValueFactory(param -> {
             int citedBy = param.getValue().getCitedByCount();
             if (citedBy == -1)
-                return new SimpleStringProperty("NA");
+                return new SimpleStringProperty("?");
             else
                 return new SimpleStringProperty(String.valueOf(citedBy));
         });
@@ -192,7 +192,7 @@ public class ArticleTableController implements TableControllable<Article> {
         pmidTableColumn.prefWidthProperty().bind(articleTable.widthProperty().multiply(0.108));
         reviewTableColumn.prefWidthProperty().bind(articleTable.widthProperty().multiply(0.108));
         titleTableColumn.prefWidthProperty().bind(articleTable.widthProperty().multiply(0.36));
-        citedByTableColumn.prefWidthProperty().bind(articleTable.widthProperty().multiply(0.108));
+        citedByTableColumn.prefWidthProperty().bind(articleTable.widthProperty().multiply(0.1));
         urlTableColumn.prefWidthProperty().bind(articleTable.widthProperty().multiply(0.138));
         yearTableColumn.prefWidthProperty().bind(articleTable.widthProperty().multiply(0.108));
 
