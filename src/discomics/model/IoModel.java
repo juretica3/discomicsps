@@ -26,17 +26,17 @@ public class IoModel implements Serializable {
 
     private List<CustomInputTermBlock> customSearchTerms;
 
-    private ProteinInteractionNetwork proteolysisFullPpi;
-    private ProteinInteractionNetwork proteolysisStringentPpi;
-    private ProteinInteractionNetwork biomarkerFullPpi;
-    private ProteinInteractionNetwork biomarkerBloodPpi;
-    private ProteinInteractionNetwork biomarkerUrinePpi;
-    private ProteinInteractionNetwork biomarkerSalivaPpi;
-    private ProteinInteractionNetwork customFullPpi;
+    private ProteinInteractionNetwork proteolysisFullPpi = new ProteinInteractionNetwork();
+    private ProteinInteractionNetwork proteolysisStringentPpi = new ProteinInteractionNetwork();
+    private ProteinInteractionNetwork biomarkerFullPpi = new ProteinInteractionNetwork();
+    private ProteinInteractionNetwork biomarkerBloodPpi = new ProteinInteractionNetwork();
+    private ProteinInteractionNetwork biomarkerUrinePpi = new ProteinInteractionNetwork();
+    private ProteinInteractionNetwork biomarkerSalivaPpi = new ProteinInteractionNetwork();
+    private ProteinInteractionNetwork customFullPpi = new ProteinInteractionNetwork();
 
-    private transient ProteinDrugInteractionNetwork proteinDrugInteractionNetwork;
-    private transient ProteinDrugInteractionNetwork proteinDrugProteolysisStringentNetwork;
-    private transient ProteinDrugInteractionNetwork proteinDrugCustomNetwork;
+    // private transient ProteinDrugInteractionNetwork proteinDrugInteractionNetwork;
+    // private transient ProteinDrugInteractionNetwork proteinDrugProteolysisStringentNetwork;
+    // private transient ProteinDrugInteractionNetwork proteinDrugCustomNetwork;
 
     private QuerySettings querySettings;
 
@@ -399,12 +399,12 @@ public class IoModel implements Serializable {
                 this.biomarkerUrinePpi = future5.get();
             if (future6 != null)
                 this.customFullPpi = future6.get();
-            if (future7 != null)
-                this.proteinDrugInteractionNetwork = future7.get();
-            if (future8 != null)
-                this.proteinDrugCustomNetwork = future8.get();
-            if (future9 != null)
-                this.proteinDrugProteolysisStringentNetwork = future9.get();
+//            if (future7 != null)
+//                this.proteinDrugInteractionNetwork = future7.get();
+//            if (future8 != null)
+//                this.proteinDrugCustomNetwork = future8.get();
+//            if (future9 != null)
+//                this.proteinDrugProteolysisStringentNetwork = future9.get();
         } catch (ExecutionException e) {
             if (e.getLocalizedMessage().equals("java.net.SocketException"))
                 throw new SocketException();
@@ -414,6 +414,7 @@ public class IoModel implements Serializable {
         }
         executorService.shutdown();
     }
+
 
     private ProteinInteractionNetwork constructProteolysisFullPpi() throws SocketException {
         Set<Protein> combinedList = new HashSet<>();
@@ -797,16 +798,17 @@ public class IoModel implements Serializable {
         return customFullPpi;
     }
 
+    // TODO
     public ProteinDrugInteractionNetwork getProteinDrugInteractionNetwork() {
-        return proteinDrugInteractionNetwork;
+        return new ProteinDrugInteractionNetwork();
     }
 
     public ProteinDrugInteractionNetwork getProteinDrugProteolysisStringentNetwork() {
-        return proteinDrugProteolysisStringentNetwork;
+        return new ProteinDrugInteractionNetwork();
     }
 
     public ProteinDrugInteractionNetwork getProteinDrugCustomNetwork() {
-        return proteinDrugCustomNetwork;
+        return new ProteinDrugInteractionNetwork();
     }
 
     public ProteinCollection getProteinCollection() {

@@ -31,6 +31,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
@@ -112,6 +113,18 @@ public class ArticleTableController implements TableControllable<Article> {
                 return new SimpleStringProperty("?");
             else
                 return new SimpleStringProperty(String.valueOf(citedBy));
+        });
+
+        citedByTableColumn.setComparator((s1, s2) -> {
+
+            try {
+                Integer i1 = Integer.parseInt(s1);
+                Integer i2 = Integer.parseInt(s2);
+                return Integer.compare(i1, i2);
+            } catch (NumberFormatException e) {
+                throw new IllegalArgumentException("Invalid integer string: " + e.getMessage());
+            }
+
         });
 
         urlTableColumn.setCellValueFactory(new PropertyValueFactory<>("url"));

@@ -54,17 +54,17 @@ public class InputListController {
         }
     }};
 
-    private static List<String[]> hgncDatabaseFull = new ArrayList<String[]>() {{
-        try {
-            InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream("discomics/db/hgnc_20171219_processed.txt");
-            List<String> databaseLines = IOUtils.readLines(is);
-            for (String databaseLine : databaseLines) {
-                add(databaseLine.split("\\t"));
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }};
+//    private static List<String[]> hgncDatabaseFull = new ArrayList<String[]>() {{
+//        try {
+//            InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream("discomics/db/hgnc_20171219_processed.txt");
+//            List<String> databaseLines = IOUtils.readLines(is);
+//            for (String databaseLine : databaseLines) {
+//                add(databaseLine.split("\\t"));
+//            }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }};
 
     private int NR_THREADS_EPMC = 2;
     private final int NR_THREADS_PUBMED = 1;
@@ -407,7 +407,8 @@ public class InputListController {
                 setProgressStep(3); // finished text-mining, start protein-protein network retrieval step
 
                 // START NETWORK QUERY
-                model.constructAllPpis(); // construct all Protein Protein interaction networks
+                //TODO
+                //model.constructAllPpis(); // construct all Protein Protein interaction networks
 
                 setProgressStep(4); // finished
 
@@ -504,13 +505,14 @@ public class InputListController {
         List<String> connectiveContaminantGenes = checkConnectiveContaminants(proteinCollection.getInputProteinSet());
 
         if (connectiveContaminantGenes.size() > 0) {
-            String alertMessage2 = "The following entered genes may indicate sample contamination with connective tissue.\n\n";
+            String alertMessage2 = "The following entered genes may indicate sample contamination with skin and/or hair.\n\n";
             MyAlertContamination alert2 = new MyAlertContamination(Alert.AlertType.INFORMATION, this.inputListStage, connectiveContaminantGenes, alertMessage2);
             Optional<ButtonType> result = alert2.showAndWait();
 
             if (result.isPresent()) {
+                System.out.println("result is present");
                 if (result.get() == alert2.getRemoveGeneButton()) { // if button type two (not present) then do nothing, so proceed to end of method where search is initiated
-                    for (String wrongGene : wrongInputStructureGenes) {
+                    for (String wrongGene : connectiveContaminantGenes) {
                         proteinCollection.removeInputProtein(wrongGene);
                     }
                 } else if (result.get() == alert2.getCancelButton()) {
@@ -530,13 +532,13 @@ public class InputListController {
         MyLogger.exiting(CLASS_NAME, methodName);
     }
 
-    private Protein retrieveProteinHgncDatabaseLocal(String inputGene) throws SocketException {
-        for (String[] databaseEntry : hgncDatabaseFull) {
-            if (databaseEntry[4].equalsIgnoreCase(inputGene)) //  databaseEntry[4] is the approved gene name
-                return new Protein(databaseEntry);
-        }
-        return null;
-    }
+//    private Protein retrieveProteinHgncDatabaseLocal(String inputGene) throws SocketException {
+//        for (String[] databaseEntry : hgncDatabaseFull) {
+//            if (databaseEntry[4].equalsIgnoreCase(inputGene)) //  databaseEntry[4] is the approved gene name
+//                return new Protein(databaseEntry);
+//        }
+//        return null;
+//    }
 
     @FXML
     private void resetButtonAction() {
@@ -675,8 +677,8 @@ public class InputListController {
             container.setAlignment(Pos.CENTER);
             container.setPadding(new Insets(15));
 
-            Label title = new Label("Enter search terms for your custom text mining query");
-            title.setStyle("-fx-font-size: 14;");
+            Label title = new Label("Custom search terms");
+            title.setStyle("-fx-font-size: 16;");
             container.getChildren().add(title);
 
             InputBlock inputBlock1 = new InputBlock(true);
@@ -751,7 +753,7 @@ public class InputListController {
             for (InputBlock inputBlock : inputBlocks) { // loop through all inputBlocks
                 CustomInputTermBlock customInputTermBlock = new CustomInputTermBlock();
                 for (InputBlock.InputBox inputBox : inputBlock.retrieveSearchTerms()) { // loop through inputBoxes
-                    String term = inputBox.inputTextField.getText().trim();
+                    String term = inputBox.inputTextField.getText().trim().toLowerCase(); // trim and to lower case
                     if (!term.isEmpty())
                         customInputTermBlock.addInputTerm(term, inputBox.isPhraseCheckBox.isSelected());
                 }

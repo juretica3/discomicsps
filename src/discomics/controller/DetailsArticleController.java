@@ -3,10 +3,16 @@ package discomics.controller;
 import discomics.model.*;
 import javafx.application.Platform;
 import javafx.concurrent.Task;
+import javafx.event.Event;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.control.TextField;
+import javafx.scene.input.ScrollEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Background;
+import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import org.fxmisc.flowless.VirtualizedScrollPane;
 import org.fxmisc.richtext.InlineCssTextArea;
@@ -38,9 +44,10 @@ public class DetailsArticleController {
     private void setArticleDetails(ArticleDetailsPane detailsGridPane) {
         Platform.runLater(() -> {
             ArrayList<Node> childList = new ArrayList<>(containerArticleDetails.getChildren());
-            for (Node child : childList) {
-                containerArticleDetails.getChildren().remove(child);
-            }
+//            for (Node child : childList) {
+//                containerArticleDetails.getChildren().remove(child);
+//            }
+            containerArticleDetails.getChildren().removeAll(childList);
 
             containerArticleDetails.getChildren().add((detailsGridPane));
             AnchorPane.setBottomAnchor(detailsGridPane, 5d);
@@ -301,7 +308,7 @@ public class DetailsArticleController {
 
         ArticleDetailsPane() {
             super();
-            setSpacing(5d);
+            //setSpacing(5d);
 
             textArea = new InlineCssTextArea();
             vsPane = new VirtualizedScrollPane<>(textArea);
@@ -309,6 +316,7 @@ public class DetailsArticleController {
             textArea.setEditable(false);
             textArea.setWrapText(true);
             textArea.setBackground(Background.EMPTY);
+            textArea.setDisable(true);
 
             textArea.prefHeightProperty().bind(heightProperty()); // make text area same height as VBox container
 
@@ -366,7 +374,7 @@ public class DetailsArticleController {
             textArea.setStyle(startIndex, endIndex, "-fx-font-weight:bold;");
 
             styleAbstractText(); // call to abstract method that will highlight text separately defined for proteolysis/biomarker/custom modules
-            getChildren().add(vsPane); // add scroll pane to container to show article details
+            getChildren().add(vsPane);
         }
 
         void constructNothingCanBeShown() {
@@ -375,4 +383,5 @@ public class DetailsArticleController {
 
         abstract void styleAbstractText();
     }
+
 }

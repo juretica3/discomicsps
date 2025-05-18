@@ -405,7 +405,7 @@ public class DetailsProteinController {
 
         @Override
         void constructMultipleSelection(List<TextMinedObject> listProteins) {
-            addTextFieldToGrid("No information can be shown: multiple selection in corresponding table.", false);
+            addTextFieldToGrid("Multiple selection in corresponding table.", false);
 
             // only if protease search is enabled
             if (mainTablesController.getModel().getQuerySettings().isProteaseSearch()) {

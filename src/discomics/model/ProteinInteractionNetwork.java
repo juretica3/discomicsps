@@ -33,6 +33,13 @@ public class ProteinInteractionNetwork implements Serializable {
         this.proteinList = new ArrayList<>();
         this.proteinProteinInteractionList = new ArrayList<>();
         this.networkNodes = new ArrayList<>();
+
+        try {
+            FileInputStream inputstream = new FileInputStream("resources/discomics/icon/attention-table.png");
+            this.networkImage = new Image(inputstream);
+        } catch (FileNotFoundException e) {
+           e.printStackTrace();
+        }
     }
 
     public ProteinInteractionNetwork(List<Protein> proteins) {

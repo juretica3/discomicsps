@@ -10,6 +10,7 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.util.List;
+import java.util.function.Consumer;
 
 /**
  * Created by Jure on 9.9.2016.
@@ -90,8 +91,15 @@ public class ProteinTableController implements TableControllable<TextMinedObject
         geneNameProteinTableColumn.setComparator(new AlphanumComparator());
         proteinTable.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
 
+        // resize table columns to be equal in size when number of columns changes
+        proteinTable.getColumns().addListener((ListChangeListener<TableColumn<TextMinedObject, ?>>) change -> {
+            double width = proteinTable.getWidth() / proteinTable.getColumns().size();
+            proteinTable.getColumns().forEach(col -> col.setPrefWidth(width));
+        });
+
+        // sets keyboard navigation listeners on first column of table
         setListeners();
-        setKeyNavigationListeners(this.proteinTable, 0); // sets keyboard navigation listeners on first column of table
+        setKeyNavigationListeners(this.proteinTable, 0);
     }
 
     private void setListeners() {
@@ -138,7 +146,7 @@ public class ProteinTableController implements TableControllable<TextMinedObject
         proteinTable.getColumns().add(column);
         proteinTable.getSortOrder().clear();
         proteinTable.getSortOrder().add(column);
-        proteinTable.getSortOrder().get(0).setSortType(TableColumn.SortType.DESCENDING);
+        proteinTable.getSortOrder().getFirst().setSortType(TableColumn.SortType.DESCENDING);
     }
 
     private void removeAllCountColumns() {

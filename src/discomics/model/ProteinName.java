@@ -44,6 +44,7 @@ class ProteinName implements Serializable {
     ProteinName(String name, String geneName) {
         this();
 
+        // initial name processing
         String modifiedName = removeBracketContent(name);
         String modifiedName1 = removeUnnecessaryNameParts(modifiedName);
 
@@ -51,21 +52,36 @@ class ProteinName implements Serializable {
         allNames.add(modifiedName1);
         allNames.addAll(constructCollagenNames(name, geneName));
 
+        // handle commas on modified names
+        String nameCommaHandled1 = handleCommas1(modifiedName, geneName);
+        if (nameCommaHandled1 != null) {
+            allNames.add(nameCommaHandled1);
+            modifiedName = nameCommaHandled1; // replace name with comma handled version
+        }
+
+        String nameCommaHandled2 = handleCommas1(modifiedName1, geneName);
+        if (nameCommaHandled2 != null) {
+            allNames.add(nameCommaHandled2);
+            modifiedName1 = nameCommaHandled2; // replace name with comma handled version
+        }
+
+        // decompose name into its parts
         this.nameParts1 = decomposeName(modifiedName);
         this.nameParts2 = decomposeName(modifiedName1);
 
+        // create name permutations
         allNames.addAll(createRoSuSuPermutations(this.nameParts1));
         allNames.addAll(createRoSuSuPermutations(this.nameParts2));
 
+        // create name permutations
         allNames.addAll(createRoGreekPermutations(this.nameParts1));
         allNames.addAll(createRoGreekPermutations(this.nameParts2));
 
+        // check for name structures and add permutated and other names
         this.isStructureRootAndOne = this.isStructureRootAndOne(this.nameParts1);
-//        if ()
-//            allNames.add(this.nameParts1.get(0).root);
 
         // todo revise
-        if(!this.isStructureRootAndOne) {
+        if (!this.isStructureRootAndOne) {
             if (this.isStructureRootAndOne = this.isStructureRootAndGreekSubtypeAndOne(this.nameParts1)) {
                 allNames.add(this.nameParts1.get(0).root + " " + this.nameParts1.get(1).subtype);
 
@@ -241,25 +257,28 @@ class ProteinName implements Serializable {
         return output;
     }
 
-//    private String handleCommas(String name, String approvedSymbol) {
-//        String[] approvedNameSplit = name.split(", ");
-//
-//        StringBuilder sb = new StringBuilder();
-//        if ((approvedNameSplit[0].equalsIgnoreCase(approvedSymbol)
-//                || approvedNameSplit[0].equalsIgnoreCase(approvedSymbol.substring(0, approvedSymbol.length() - 1) + " like"))
-//                && approvedNameSplit.length > 1) { // some names contain gene symbol followed by comma, followed by actual modifiedName
-//
-//            for (int i = 1; i < approvedNameSplit.length; i++) { // remove pre-comma content
-//                sb.append(approvedNameSplit[i]);
-//            }
-//
-//        } else {
+    /**
+     * Handles name structures where gene name appears first as part of protein name, followed by comma, followed by
+     * actual protein name (e.g. "GC, vitamin D ...")
+     */
+
+    private String handleCommas1(String name, String approvedSymbol) {
+        String[] approvedNameSplit = name.split(", ");
+
+        StringBuilder sb = new StringBuilder();
+        if (approvedNameSplit[0].equalsIgnoreCase(approvedSymbol) && approvedNameSplit.length > 1) { // check structure
+            for (int i = 1; i < approvedNameSplit.length; i++) { // remove pre-comma content
+                sb.append(approvedNameSplit[i]);
+            }
+            return sb.toString();
+        } else
+            return null;
+
+//        else {
 //            sb.append(approvedNameSplit[0]); // remove post-comma content
 //            this.afterCommaContent = Arrays.copyOfRange(approvedNameSplit, 1, approvedNameSplit.length);
 //        }
-//
-//        return sb.toString();
-//    }
+    }
 
     ArrayList<String> getNames() {
         return new ArrayList<>(this.allNames);

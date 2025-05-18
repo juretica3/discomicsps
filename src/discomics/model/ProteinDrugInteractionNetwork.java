@@ -19,6 +19,10 @@ public class ProteinDrugInteractionNetwork extends ProteinInteractionNetwork {
     private static String STITCH_NETWORK_IMAGE_BASE_URL = "http://stitch.embl.de/api/image/networkList?limit=0&required_score=150&identifiers=";
     private static String STITCH_NETWORK_TAB_DATA_BASE_URL = "http://stitch.embl.de/api/psi-mi-tab/interactionsList?limit=0&required_score=150&identifiers=";
 
+    public ProteinDrugInteractionNetwork() {
+        super();
+    }
+
     public ProteinDrugInteractionNetwork(List<Protein> proteins) {
         super(proteins);
     }

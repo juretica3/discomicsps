@@ -18,7 +18,7 @@ public class ProteinCollection implements Serializable {
     private Set<Protein> outputProteinList;
     private List<String> proteinsFailedIdentify;
 
-    private ProteinInteractionNetwork proteinInteractionNetwork;
+     private ProteinInteractionNetwork proteinInteractionNetwork;
 
     public ProteinCollection() {
         this.outputProteinList = new HashSet<>();
@@ -64,8 +64,11 @@ public class ProteinCollection implements Serializable {
 
     public void buildInteractionNetwork() throws SocketException {
         // create and build protein interaction network of only the input proteins
-        this.proteinInteractionNetwork = new ProteinInteractionNetwork(new ArrayList<>(this.outputProteinList));
-        this.proteinInteractionNetwork.build();
+        // TODO
+        this.proteinInteractionNetwork = new ProteinInteractionNetwork();
+
+        //this.proteinInteractionNetwork = new ProteinInteractionNetwork(new ArrayList<>(this.outputProteinList));
+        //this.proteinInteractionNetwork.build();
 
         assignNetworkNodesToProteins();
     }

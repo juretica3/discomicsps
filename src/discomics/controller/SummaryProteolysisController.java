@@ -343,6 +343,7 @@ public class SummaryProteolysisController extends SummaryController {
 
     public void showStage(boolean show) {
         if (show) {
+            // find centre of main controller
             double positionX = mainController.getMainStage().getX() + (mainController.getMainStage().getWidth() - summaryProteolysisStage.getWidth()) / 2;
             double positionY = mainController.getMainStage().getY() + (mainController.getMainStage().getHeight() - summaryProteolysisStage.getHeight()) / 2;
 

@@ -39,9 +39,14 @@ public class TextMinedProtein extends TextMinedObject<Protein> implements Serial
     }
 
     public double getNetworkScore() {
-        if (textMinableInput.getStringId().contains(Protein.getHomoSapiensTaxonId()))
-            return textMinableInput.getRawNetworkNode().getScore();
-        else
-            return 0; // not in the network if protein not human (from rat or mouse)
+        try {
+            if (textMinableInput.getStringId().contains(Protein.getHomoSapiensTaxonId()))
+                return textMinableInput.getRawNetworkNode().getScore();
+            else
+                return 0; // not in the network if protein not human (from rat or mouse)
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+            return 0;
+        }
     }
 }

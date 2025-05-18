@@ -101,6 +101,7 @@ public class SummaryCustomController extends SummaryController {
     @Override
     public void showStage(boolean show) {
         if (show) {
+            // find centre of main controller
             double positionX = mainController.getMainStage().getX() + (mainController.getMainStage().getWidth() - summaryCustomStage.getWidth()) / 2;
             double positionY = mainController.getMainStage().getY() + (mainController.getMainStage().getHeight() - summaryCustomStage.getHeight()) / 2;
 

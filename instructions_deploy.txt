@@ -1,0 +1,3 @@
+To package and deploy for macOS run:
+
+javapackager -deploy -native -outdir dist -outfile DiscOmicsPS -srcdir out/artifacts/DiscOmicsPS_jar -srcfiles DiscOmicsPS.jar -appclass discomics.Main -name "DiscOmicsPS" -title "DiscOmicsPS" -BjvmOptions=-Xmx12g -BjvmOptions=-XX:+UseG1GC -BjvmOptions=-XX:+UseStringDeduplication

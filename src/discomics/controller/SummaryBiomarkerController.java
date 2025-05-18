@@ -237,6 +237,7 @@ public class SummaryBiomarkerController extends SummaryController {
     @Override
     public void showStage(boolean show) {
         if (show) {
+            // find centre of main controller window
             double positionX = mainController.getMainStage().getX() + (mainController.getMainStage().getWidth() - summaryBiomarkerStage.getWidth()) / 2;
             double positionY = mainController.getMainStage().getY() + (mainController.getMainStage().getHeight() - summaryBiomarkerStage.getHeight()) / 2;
 

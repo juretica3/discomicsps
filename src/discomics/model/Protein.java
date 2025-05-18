@@ -549,7 +549,7 @@ public class Protein implements TextMinableInput, Serializable {
 
         } catch (JSONException | NullPointerException e) { // JSONException occurs if error message retrieved when creating JSONArray
             e.printStackTrace();
-            System.err.print("EXCEPTION WITH: " + queryInputGene);
+            System.err.print("EXCEPTION WITH: " + queryInputGene + "\n");
             return false;
         }
     }

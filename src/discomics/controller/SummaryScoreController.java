@@ -352,9 +352,6 @@ public class SummaryScoreController extends SummaryController {
             return;
         }
 
-        //System.out.println(xAxisSelection);
-        //System.out.println(yAxisSelection);
-
         scatterChartData.clear();
         scatterChart.layout();
 
@@ -423,7 +420,6 @@ public class SummaryScoreController extends SummaryController {
 
             dataPoint.setExtraValue(entry.getGeneName());
             series.getData().add(dataPoint);
-            //System.out.println(dataPoint.getXValue() + ", " + dataPoint.getYValue());
         }
 
         series.getData().sort(new XyScatterDataComparator()); // sort data; important for next step
@@ -475,7 +471,10 @@ public class SummaryScoreController extends SummaryController {
 
     @FXML
     private void copyTableDataAction() {
+        // initialise StringBuilder to append what will be copied to the clipboard
         StringBuilder sb = new StringBuilder();
+
+        // append first row
         sb.append("Gene name").append("\t")
                 .append("Nr Drugs").append("\t")
                 .append("Neighborhood Score").append("\t");
@@ -493,6 +492,7 @@ public class SummaryScoreController extends SummaryController {
             sb.append("Overall Score (1/C)").append("\t");
         }
 
+        // append the data
         sb.append("\n");
 
         for (ScoreTableEntry tableEntry : this.scoreTableModel.getData()) {
@@ -516,6 +516,7 @@ public class SummaryScoreController extends SummaryController {
             sb.append("\n");
         }
 
+        // copy to cliboard
         Clipboard clipboard = Clipboard.getSystemClipboard();
         ClipboardContent content = new ClipboardContent();
         content.putString(sb.toString());
@@ -527,12 +528,15 @@ public class SummaryScoreController extends SummaryController {
             // update all bar charts before showing the stage
             updateAllCharts();
 
-            summaryScoreStage.show();
+            // find coordinates of main window centre
             double positionX = mainController.getMainStage().getX() + (mainController.getMainStage().getWidth() - summaryScoreStage.getWidth()) / 2;
             double positionY = mainController.getMainStage().getY() + (mainController.getMainStage().getHeight() - summaryScoreStage.getHeight()) / 2;
 
             summaryScoreStage.setX(positionX); // centered over MainController
             summaryScoreStage.setY(positionY);
+            summaryScoreStage.show(); // show the window
+            summaryScoreStage.requestFocus();
+
         } else
             summaryScoreStage.hide();
     }

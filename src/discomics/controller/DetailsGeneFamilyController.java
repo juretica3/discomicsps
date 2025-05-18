@@ -26,9 +26,9 @@ public class DetailsGeneFamilyController {
         GeneFamilyDetailsPane proteinDetailsGridPane = new GeneFamilyDetailsPane();
 
         if (selectedGeneFamilies.size() == 1) {
-            proteinDetailsGridPane.construct(selectedGeneFamilies.get(0));
+            proteinDetailsGridPane.construct(selectedGeneFamilies.getFirst());
             containerGeneFamilyDetails.setContent(proteinDetailsGridPane);
-        } else if (selectedGeneFamilies.size() == 0) {
+        } else if (selectedGeneFamilies.isEmpty()) {
             proteinDetailsGridPane.constructNoSelection();
             containerGeneFamilyDetails.setContent(proteinDetailsGridPane);
         } else {

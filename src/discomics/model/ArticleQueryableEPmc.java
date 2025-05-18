@@ -2,6 +2,7 @@ package discomics.model;
 
 import discomics.application.DownloadFileHTTP;
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.*;
@@ -163,147 +164,148 @@ public abstract class ArticleQueryableEPmc extends ArticleQueryable implements S
 
         List<Article> outputList = new ArrayList<>();
         int nrArticles;
-        String nextCursorMark = "%2A"; // default value (asterisk *)
+        //String nextCursorMark = "%2A"; // default value (asterisk *)
+        //String urlWithCursorMark = url + "&cursorMark=" + nextCursorMark;
 
-        do {
-            String urlWithCursorMark = url + "&cursorMark=" + nextCursorMark;
-            System.out.println("TEXTMINING EPMC: " + urlWithCursorMark);
-            String JSONInput = DownloadFileHTTP.downloadOnlineFileNoHeader(urlWithCursorMark); // null returned by downloadOnlineFileNoHeader if errors occur
-            JSONObject jsonObject = new JSONObject(JSONInput);
+        System.out.println("TEXTMINING EPMC: " + url);
+       // do {
+                //System.out.println("TEXTMINING EPMC: " + urlWithCursorMark);
+                String JSONInput = DownloadFileHTTP.downloadOnlineFileNoHeader(url); // null returned by downloadOnlineFileNoHeader if errors occur
+                JSONObject jsonObject = new JSONObject(JSONInput);
 
-            nrArticles = jsonObject.getJSONObject("resultList").getJSONArray("result").length(); // number of articles retrieved
-            nextCursorMark = jsonObject.getString("nextCursorMark");
+                nrArticles = jsonObject.getJSONObject("resultList").getJSONArray("result").length(); // number of articles retrieved
+                //nextCursorMark = jsonObject.getJSONObject("request").getString("cursorMark");
 
-            for (int i = 0; i < nrArticles; i++) { // parse article information, create Article objects and store them in output list
-                Article art = new Article();
+                for (int i = 0; i < nrArticles; i++) { // parse article information, create Article objects and store them in output list
+                    Article art = new Article();
 
-                JSONObject jsonArt = jsonObject.getJSONObject("resultList").getJSONArray("result").getJSONObject(i);
+                    JSONObject jsonArt = jsonObject.getJSONObject("resultList").getJSONArray("result").getJSONObject(i);
 
-                if (jsonArt.has("pmid"))
-                    art.setPmid(jsonArt.getString("pmid"));
+                    if (jsonArt.has("pmid"))
+                        art.setPmid(jsonArt.getString("pmid"));
 
-                if (jsonArt.has("pmcid"))
-                    art.setPmcid(jsonArt.getString("pmcid"));
+                    if (jsonArt.has("pmcid"))
+                        art.setPmcid(jsonArt.getString("pmcid"));
 
-                if (jsonArt.has("title"))
-                    art.setTitle(jsonArt.getString("title"));
+                    if (jsonArt.has("title"))
+                        art.setTitle(jsonArt.getString("title"));
 
-                if (jsonArt.has("authorString"))
-                    art.setAuthorString(jsonArt.getString("authorString"));
+                    if (jsonArt.has("authorString"))
+                        art.setAuthorString(jsonArt.getString("authorString"));
 
-                if (jsonArt.has("doi"))
-                    art.setDoi(jsonArt.getString("doi"));
+                    if (jsonArt.has("doi"))
+                        art.setDoi(jsonArt.getString("doi"));
 
-                if (jsonArt.has("authorList")) {
-                    JSONArray jsonAuths = jsonArt.getJSONObject("authorList").getJSONArray("author");
-                    for (int i1 = 0; i1 < jsonAuths.length(); i1++) {
-                        String firstName = "";
-                        if (jsonAuths.getJSONObject(i1).has("firstName"))
-                            firstName = jsonAuths.getJSONObject(i1).getString("firstName");
-                        else if (jsonAuths.getJSONObject(i1).has("initials"))
-                            firstName = jsonAuths.getJSONObject(i1).getString("initials");
-                        String lastName = "";
-                        if (jsonAuths.getJSONObject(i1).has("lastName"))
-                            lastName = jsonAuths.getJSONObject(i1).getString("lastName");
-                        art.addArtAuthor(firstName, lastName);
-                    }
-                }
-
-                String pubDate = null;
-                if (jsonArt.has("firstPublicationDate")) {
-                    pubDate = jsonArt.getString("firstPublicationDate");
-                } else if (jsonArt.has("dateOfCreation")) {
-                    pubDate = jsonArt.getString("dateOfCreation");
-                } else if (jsonArt.has("dateOfRevision")) {
-                    pubDate = jsonArt.getString("dateOfRevision");
-                } else if (jsonArt.has("dateOfCompletion")) {
-                    pubDate = jsonArt.getString("dateOfCompletion");
-                }
-
-                if (pubDate != null) {
-                    String[] splitDate = pubDate.split("-");
-                    if (pubDate.length() > 0)
-                        art.setPubDateYear(splitDate[0]);
-                    if (pubDate.length() > 1)
-                        art.setPubDateMonthNr(splitDate[1]);
-                    if (pubDate.length() > 2)
-                        art.setPubDateDay(splitDate[2]);
-                }
-
-                if (jsonArt.has("journalInfo")) {
-
-                    JSONObject jsonJour = jsonArt.getJSONObject("journalInfo");
-
-                    if (jsonJour.has("issue"))
-                        art.setJournalIssue(jsonJour.getString("issue"));
-
-                    if (jsonJour.has("volume"))
-                        art.setJournalVol(jsonJour.getString("volume"));
-
-                    if (jsonJour.getJSONObject("journal").has("medlineAbbreviation"))
-                        art.setJournalTitleShort(jsonJour.getJSONObject("journal").getString("medlineAbbreviation"));
-
-                    if (jsonJour.getJSONObject("journal").has("title"))
-                        art.setJournalTitle(jsonJour.getJSONObject("journal").getString("title"));
-
-                }
-
-                if (jsonArt.has("citedByCount")) {
-                    art.setCitedByCount(jsonArt.getInt("citedByCount"));
-                }
-
-                if (jsonArt.has("abstractText"))
-                    art.setArtAbstract(jsonArt.getString("abstractText"));
-
-                JSONArray jsonPubType = null;
-
-                if (jsonArt.has("pubTypeList")) {
-                    if (jsonArt.getJSONObject("pubTypeList").has("pubType"))
-                        jsonPubType = jsonArt.getJSONObject("pubTypeList").getJSONArray("pubType");
-                }
-
-                if (jsonPubType != null) {
-                    for (int ii = 0; ii < jsonPubType.length(); ii++) {
-                        String pubType = jsonPubType.getString(ii);
-                        if (pubType.equalsIgnoreCase("review")) {
-                            art.setReview(true);
-                            break;
-                        } else {
-                            art.setReview(false);
-                        }
-                    }
-                }
-
-                JSONArray jsonFullTextURL = null;
-
-                if (jsonArt.has("fullTextUrlList")) {
-                    if (jsonArt.getJSONObject("fullTextUrlList").has("fullTextUrl"))
-                        jsonFullTextURL = jsonArt.getJSONObject("fullTextUrlList").getJSONArray("fullTextUrl");
-                }
-
-                if (jsonFullTextURL != null) {
-                    int jsonFullTextURLSize = jsonFullTextURL.length();
-
-                    // loop through the available urls to see if OA or FREE versions available
-                    for (int iii = 0; iii < jsonFullTextURLSize; iii++) {
-                        String availabilityCode = jsonFullTextURL.getJSONObject(iii).getString("availabilityCode");
-
-                        if (availabilityCode.equalsIgnoreCase("OA") || availabilityCode.equalsIgnoreCase("F")) {
-                            art.setArtURL(jsonFullTextURL.getJSONObject(iii).getString("url"));
-                            break;
+                    if (jsonArt.has("authorList")) {
+                        JSONArray jsonAuths = jsonArt.getJSONObject("authorList").getJSONArray("author");
+                        for (int i1 = 0; i1 < jsonAuths.length(); i1++) {
+                            String firstName = "";
+                            if (jsonAuths.getJSONObject(i1).has("firstName"))
+                                firstName = jsonAuths.getJSONObject(i1).getString("firstName");
+                            else if (jsonAuths.getJSONObject(i1).has("initials"))
+                                firstName = jsonAuths.getJSONObject(i1).getString("initials");
+                            String lastName = "";
+                            if (jsonAuths.getJSONObject(i1).has("lastName"))
+                                lastName = jsonAuths.getJSONObject(i1).getString("lastName");
+                            art.addArtAuthor(firstName, lastName);
                         }
                     }
 
-                    // If OA or FREE version not available, grab first url in the list.
-                    if (art.getUrl().isEmpty()) {
-                        if (jsonFullTextURLSize != 0) {
-                            art.setArtURL(jsonFullTextURL.getJSONObject(0).getString("url"));
+                    String pubDate = null;
+                    if (jsonArt.has("firstPublicationDate")) {
+                        pubDate = jsonArt.getString("firstPublicationDate");
+                    } else if (jsonArt.has("dateOfCreation")) {
+                        pubDate = jsonArt.getString("dateOfCreation");
+                    } else if (jsonArt.has("dateOfRevision")) {
+                        pubDate = jsonArt.getString("dateOfRevision");
+                    } else if (jsonArt.has("dateOfCompletion")) {
+                        pubDate = jsonArt.getString("dateOfCompletion");
+                    }
+
+                    if (pubDate != null) {
+                        String[] splitDate = pubDate.split("-");
+                        if (pubDate.length() > 0)
+                            art.setPubDateYear(splitDate[0]);
+                        if (pubDate.length() > 1)
+                            art.setPubDateMonthNr(splitDate[1]);
+                        if (pubDate.length() > 2)
+                            art.setPubDateDay(splitDate[2]);
+                    }
+
+                    if (jsonArt.has("journalInfo")) {
+
+                        JSONObject jsonJour = jsonArt.getJSONObject("journalInfo");
+
+                        if (jsonJour.has("issue"))
+                            art.setJournalIssue(jsonJour.getString("issue"));
+
+                        if (jsonJour.has("volume"))
+                            art.setJournalVol(jsonJour.getString("volume"));
+
+                        if (jsonJour.getJSONObject("journal").has("medlineAbbreviation"))
+                            art.setJournalTitleShort(jsonJour.getJSONObject("journal").getString("medlineAbbreviation"));
+
+                        if (jsonJour.getJSONObject("journal").has("title"))
+                            art.setJournalTitle(jsonJour.getJSONObject("journal").getString("title"));
+
+                    }
+
+                    if (jsonArt.has("citedByCount")) {
+                        art.setCitedByCount(jsonArt.getInt("citedByCount"));
+                    }
+
+                    if (jsonArt.has("abstractText"))
+                        art.setArtAbstract(jsonArt.getString("abstractText"));
+
+                    JSONArray jsonPubType = null;
+
+                    if (jsonArt.has("pubTypeList")) {
+                        if (jsonArt.getJSONObject("pubTypeList").has("pubType"))
+                            jsonPubType = jsonArt.getJSONObject("pubTypeList").getJSONArray("pubType");
+                    }
+
+                    if (jsonPubType != null) {
+                        for (int ii = 0; ii < jsonPubType.length(); ii++) {
+                            String pubType = jsonPubType.getString(ii);
+                            if (pubType.equalsIgnoreCase("review")) {
+                                art.setReview(true);
+                                break;
+                            } else {
+                                art.setReview(false);
+                            }
                         }
                     }
+
+                    JSONArray jsonFullTextURL = null;
+
+                    if (jsonArt.has("fullTextUrlList")) {
+                        if (jsonArt.getJSONObject("fullTextUrlList").has("fullTextUrl"))
+                            jsonFullTextURL = jsonArt.getJSONObject("fullTextUrlList").getJSONArray("fullTextUrl");
+                    }
+
+                    if (jsonFullTextURL != null) {
+                        int jsonFullTextURLSize = jsonFullTextURL.length();
+
+                        // loop through the available urls to see if OA or FREE versions available
+                        for (int iii = 0; iii < jsonFullTextURLSize; iii++) {
+                            String availabilityCode = jsonFullTextURL.getJSONObject(iii).getString("availabilityCode");
+
+                            if (availabilityCode.equalsIgnoreCase("OA") || availabilityCode.equalsIgnoreCase("F")) {
+                                art.setArtURL(jsonFullTextURL.getJSONObject(iii).getString("url"));
+                                break;
+                            }
+                        }
+
+                        // If OA or FREE version not available, grab first url in the list.
+                        if (art.getUrl().isEmpty()) {
+                            if (jsonFullTextURLSize != 0) {
+                                art.setArtURL(jsonFullTextURL.getJSONObject(0).getString("url"));
+                            }
+                        }
+                    }
+                    outputList.add(art); // add the constructed object to the array
                 }
-                outputList.add(art); // add the constructed object to the array
-            }
-        } while (nrArticles > 0);
+       // } while (nrArticles > 0);
 
         return outputList;
     }

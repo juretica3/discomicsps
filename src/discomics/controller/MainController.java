@@ -29,7 +29,9 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -57,7 +59,6 @@ public class MainController implements TableControllable {
 
     private int MAX_ARTICLES_RETRIEVED = 50;
 
-    // ENCAPSULATED CONTROLLER
     @FXML
     private MainTablesController mainTablesController;
 
@@ -205,7 +206,7 @@ public class MainController implements TableControllable {
         Stage inputListStage = new Stage();
         Scene inputListScene = new MyScene(inputListView);
         inputListStage.setScene(inputListScene);
-        inputListStage.setTitle(Main.NAME + " v." + Main.VERSION);
+        inputListStage.setTitle(Main.NAME + " v" + Main.VERSION);
         inputListStage.setResizable(false);
         this.inputListController = loader.getController();
         this.inputListController.init(this, inputListStage);
@@ -215,7 +216,7 @@ public class MainController implements TableControllable {
         Stage networkStage = new Stage();
         Scene networkScene = new MyScene(networkView);
         networkStage.setScene(networkScene);
-        networkStage.setTitle(Main.NAME + " v." + Main.VERSION);
+        networkStage.setTitle(Main.NAME + " v" + Main.VERSION);
         this.networkController = loader1.getController();
         this.networkController.init(this, networkStage);
 
@@ -224,7 +225,7 @@ public class MainController implements TableControllable {
         Stage summaryStageProteolysis = new Stage();
         Scene summarySceneProteolysis = new MyScene(summaryView);
         summaryStageProteolysis.setScene(summarySceneProteolysis);
-        summaryStageProteolysis.setTitle(Main.NAME + " v." + Main.VERSION);
+        summaryStageProteolysis.setTitle(Main.NAME + " v" + Main.VERSION);
         this.summaryProteolysisController = loader2.getController();
         this.summaryProteolysisController.init(this, summaryStageProteolysis);
 
@@ -233,7 +234,7 @@ public class MainController implements TableControllable {
         Stage summaryStageBiomarker = new Stage();
         Scene summarySceneBiomarker = new MyScene(summaryView2);
         summaryStageBiomarker.setScene(summarySceneBiomarker);
-        summaryStageBiomarker.setTitle(Main.NAME + " v." + Main.VERSION);
+        summaryStageBiomarker.setTitle(Main.NAME + " v" + Main.VERSION);
         this.summaryBiomarkerController = loader3.getController();
         this.summaryBiomarkerController.init(this, summaryStageBiomarker);
 
@@ -242,7 +243,7 @@ public class MainController implements TableControllable {
         Stage summaryStageCustom = new Stage();
         Scene summarySceneCustom = new MyScene(summaryView3);
         summaryStageCustom.setScene(summarySceneCustom);
-        summaryStageCustom.setTitle(Main.NAME + " v." + Main.VERSION);
+        summaryStageCustom.setTitle(Main.NAME + " v" + Main.VERSION);
         this.summaryCustomController = loader4.getController();
         this.summaryCustomController.init(this, summaryStageCustom);
 
@@ -251,7 +252,7 @@ public class MainController implements TableControllable {
         Stage summaryScoreStage = new Stage();
         Scene summaryScoreScene = new MyScene(summaryScoreView);
         summaryScoreStage.setScene(summaryScoreScene);
-        summaryScoreStage.setTitle(Main.NAME + " v." + Main.VERSION);
+        summaryScoreStage.setTitle(Main.NAME + " v" + Main.VERSION);
         this.summaryScoreController = loader5.getController();
         this.summaryScoreController.init(this, summaryScoreStage);
 
@@ -260,7 +261,7 @@ public class MainController implements TableControllable {
         Stage mainControllerNonStringentStage = new Stage();
         Scene mainControllerNonStringentScene = new MyScene(mainControllerNonStringentView);
         mainControllerNonStringentStage.setScene(mainControllerNonStringentScene);
-        mainControllerNonStringentStage.setTitle(Main.NAME + " v." + Main.VERSION);
+        mainControllerNonStringentStage.setTitle(Main.NAME + " v" + Main.VERSION);
         this.mainControllerNonStringent = loader6.getController();
         this.mainControllerNonStringent.init(this, mainControllerNonStringentStage);
 
@@ -269,7 +270,7 @@ public class MainController implements TableControllable {
         Stage drugMiningStage = new Stage();
         Scene drugMiningScene = new MyScene(drugMiningControllerView);
         drugMiningStage.setScene(drugMiningScene);
-        drugMiningStage.setTitle(Main.NAME + " v." + Main.VERSION);
+        drugMiningStage.setTitle(Main.NAME + " v" + Main.VERSION);
         drugMiningStage.setResizable(false);
         this.mainControllerDrugMining = loader7.getController();
         this.mainControllerDrugMining.init(this, drugMiningStage);
@@ -279,7 +280,7 @@ public class MainController implements TableControllable {
         Stage settingsStage = new Stage();
         Scene settingsScene = new MyScene(settingsControllerView);
         settingsStage.setScene(settingsScene);
-        settingsStage.setTitle(Main.NAME + " v." + Main.VERSION);
+        settingsStage.setTitle(Main.NAME + " v" + Main.VERSION);
         settingsStage.setResizable(false);
         this.mainControllerSettings = loader8.getController();
         this.mainControllerSettings.init(this, settingsStage);
@@ -562,104 +563,6 @@ public class MainController implements TableControllable {
         CustomBiomarkerDefinitionDialog dialog = new CustomBiomarkerDefinitionDialog();
         dialog.createNewForm();
         dialog.showDialog();
-
-//        GridPane gridPane = new GridPane();
-//        gridPane.setVgap(10);
-//        gridPane.setPadding(new Insets(15));
-//
-//        Label title = new Label("Enter search terms for your custom biomarker");
-//        title.setStyle("-fx-font-size: 14;");
-//        gridPane.add(title, 0, 1);
-//
-//        VBox textFieldBox = new VBox(5);
-//        TextField searchTermField = new TextField();
-//        searchTermField.setPromptText("Search Term");
-//        textFieldBox.getChildren().add(searchTermField);
-//        gridPane.add(textFieldBox, 0, 2);
-//
-//        Button addField = new Button("Add");
-//        addField.setTooltip(new Tooltip("Ctrl+Tab"));
-//        addField.setPrefWidth(80);
-//
-//        gridPane.add(addField, 0, 3);
-//
-//        Button ok = new Button("OK");
-//        ok.setPrefWidth(80);
-//        gridPane.add(ok, 0, 4);
-//
-//        ColumnConstraints columnConstraints = new ColumnConstraints();
-//        columnConstraints.setHalignment(HPos.CENTER);
-//        gridPane.getColumnConstraints().add(columnConstraints);
-//
-//        final Stage dialog = new Stage();
-//        dialog.initModality(Modality.APPLICATION_MODAL);
-//        dialog.initOwner(mainStage);
-//        Scene dialogScene = new MyScene(gridPane);
-//        dialog.setScene(dialogScene);
-//        dialog.setResizable(false);
-//
-//        final KeyCombination combination = new KeyCodeCombination(KeyCode.TAB, KeyCombination.CONTROL_DOWN);
-//        dialogScene.setOnKeyReleased(event -> {
-//            if (combination.match(event)) {
-//                addField.fire();
-//            }
-//        });
-//
-//        BooleanBinding bb = new BooleanBinding() {
-//            {
-//                super.bind(searchTermField.textProperty());
-//            }
-//
-//            @Override
-//            protected boolean computeValue() {
-//                return searchTermField.getText().trim().isEmpty();
-//            }
-//        };
-//        ok.disableProperty().bind(bb);
-//        addField.disableProperty().bind(bb);
-//
-//        addField.setOnAction(event -> {
-//            TextField field = new TextField();
-//            field.setPromptText("Search Term");
-//            textFieldBox.getChildren().add(field);
-//            field.requestFocus();
-//            dialog.sizeToScene();
-//        });
-//
-//        ok.setOnAction(event -> {
-//            List<Node> parameters = textFieldBox.getChildren();
-//            List<String> parametersString = new ArrayList<>();
-//            for (Node parameter : parameters) {
-//                if (parameter instanceof TextField) {
-//                    if (!((TextField) parameter).getText().trim().isEmpty()) {
-//                        parametersString.add(((TextField) parameter).getText().trim());
-//                    }
-//                }
-//            }
-//
-//            for (TextMinedProtein tmProt : model.getTextMinedProteins())
-//                tmProt.getArticleCollectableBiom().removeCustomBiomarkerFromArticles();
-//
-//            IoModel.getCUSTOM().setSearchTerms(parametersString);
-//
-//            for (TextMinedProtein tmProt : model.getTextMinedProteins())
-//                tmProt.getArticleCollectableBiom().defineCustomBiomarkerForArticles();
-//
-//            summaryBiomarkerController.initialiseCustomSummaryView();
-//
-//            List<TextMinedProtein> selectedCollectablesProt = mainTablesController.getProteinTableController().getTable().getSelectionModel().getSelectedItems();
-//            mainTablesController.getArticleTableBiomarkerController().clearAndUpdateTable(retrieveArticlesBiomarker(selectedCollectablesProt, IoModel.getCUSTOM()));
-//
-//            dialog.close();
-//        });
-//
-//        dialog.setOnCloseRequest(event -> {
-//            allMenuItem.setSelected(true);
-//            dialog.close();
-//        });
-//
-//        dialog.showStage();
-//        ok.requestFocus();
     }
 
     private class CustomBiomarkerDefinitionDialog extends GridPane {
@@ -1027,22 +930,6 @@ public class MainController implements TableControllable {
                 proteinAmbiguous.forEach(this::addText);
             else
                 addText("None");
-
-            // add information on genes that were supplemented (parental genes of pseudogenes)
-//            addHeading("Supplemented input gene list with the following genes:");
-//            List<String> inputGeneList = new ArrayList<>();
-//            model.getProteinCollection().getInputProteinSet().forEach(s -> inputGeneList.add(s.toLowerCase())); // get input set of gene identifiers
-//
-//            Set<String> supplementedGenes = new HashSet<>();
-//            for (Protein protein : model.getProteinCollection().getOutputProteinList()) { // loop through queried protein list
-//                if (!inputGeneList.contains(protein.getMainName().toLowerCase())) { // if input set of gene identifiers does not contain a protein then it must be a supplemented protein
-//                    supplementedGenes.add(protein.getMainName());
-//                }
-//            }
-//            if (!supplementedGenes.isEmpty()) // add text to GUI
-//                supplementedGenes.forEach(this::addText);
-//            else
-//                addText("None");
 
             addHeading("STRING ID search failed for:");
             if (!proteinStringIdNotFound.isEmpty())
