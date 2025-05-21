@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+
+<SplitPane fx:id="mainSplitPane" dividerPositions="0.5" orientation="VERTICAL" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="discomics.controller.GeneCountsTablesController">
+   <items>
+      <fx:include fx:id="proteinTable" source="tables/ProteinTableController.fxml" />
+      <fx:include fx:id="proteaseTable" source="tables/ProteaseTableController.fxml" />
+   </items>
+</SplitPane>

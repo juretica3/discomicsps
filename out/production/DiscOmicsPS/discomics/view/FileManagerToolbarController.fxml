@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="5.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="discomics.controller.FileManagerToolbarController">
+    <children>
+        <Button fx:id="openButton" mnemonicParsing="false" onAction="#openButtonActionListener">
+            <graphic>
+                <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@/discomics/icon/selected_pack/folder-1.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <tooltip>
+                <Tooltip text="Open (Ctrl+O)" />
+            </tooltip>
+        </Button>
+        <Button fx:id="saveButton" mnemonicParsing="false" onAction="#saveButtonActionListener">
+            <graphic>
+                <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@/discomics/icon/selected_pack/technology.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <tooltip>
+                <Tooltip text="Save As (Ctrl+S)" />
+            </tooltip>
+        </Button>
+        <Button fx:id="downloadCitationButton" mnemonicParsing="false" onAction="#downloadCitationButtonActionListener">
+            <graphic>
+                <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@/discomics/icon/selected_pack/agenda.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <tooltip>
+                <Tooltip text="Download Citation" />
+            </tooltip>
+        </Button>
+    </children>
+</HBox>

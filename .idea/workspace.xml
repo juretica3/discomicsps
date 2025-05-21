@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DiscOmicsPS:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/discomics/controller/MainController.java" line="918" />
+    <bookmark url="file://$PROJECT_DIR$/src/discomics/model/ProteinName.java" line="53" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="1. Introduced connective tissue contamination dialog box&#10;2. Fixed illegal gene name dialog box rule to allow for hyphens">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_controls.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_fxml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_graphics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_swing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dropbox" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_fxmisc_richtext_richtextfx_0_7_M2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/fxmisc_richtext_richtextfx.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscOmicsPS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DiscOmicsPS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/AlphanumComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/AlphanumComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/ArticleScanProtease.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/ArticleScanProtease.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/DownloadFileHTTP$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/DownloadFileHTTP$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/DownloadFileHTTP$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/DownloadFileHTTP$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/DownloadFileHTTP$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/DownloadFileHTTP$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/DownloadFileHTTP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/DownloadFileHTTP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/EnglishDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/EnglishDictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/GreekAlphabet$GreekLetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/GreekAlphabet$GreekLetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/GreekAlphabet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/GreekAlphabet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/MyLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/MyLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/RomanDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/application/RomanDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ArticleTableController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ArticleTableController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ArticleTableController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ArticleTableController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ArticleTableController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ArticleTableController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ArticleTableController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ArticleTableController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$ArticleDetailsPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController$ArticleDetailsPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsGeneFamilyController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsGeneFamilyController$GeneFamilyDetailsPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsGeneFamilyController$GeneFamilyDetailsPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsGeneFamilyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsGeneFamilyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsProteinController$ProteinDetailsPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsProteinController$ProteinDetailsPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsProteinController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/DetailsProteinController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ExceptionDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ExceptionDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/GeneCountsTablesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/GeneCountsTablesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock$InputBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock$InputBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput$InputBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController$CustomTextMiningInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/InputListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$CustomBiomarkerDefinitionDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$CustomBiomarkerDefinitionDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$CustomBiomarkerDefinitionDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$CustomBiomarkerDefinitionDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$LogWindow$MyLabel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$LogWindow$MyLabel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$LogWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController$LogWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainControllerDrugMining.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainControllerDrugMining.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainControllerNonStringent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainControllerNonStringent$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainControllerNonStringent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainControllerNonStringent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesDrugsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MainTablesDrugsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyAlert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyAlert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyProgressDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyProgressDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyScene.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyTableListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyTableListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/MyTableModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/NetworkController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/NetworkController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/NetworkController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/NetworkController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/NetworkController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/NetworkController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/NetworkController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/NetworkController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/NetworkController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/NetworkController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/NetworkController$NetworkDbLinkPopup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/NetworkController$NetworkDbLinkPopup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/NetworkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/NetworkController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ProteaseTableController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ProteaseTableController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ProteinTableController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/ProteinTableController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/StatusBarController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/StatusBarController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/StatusBarController$MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/StatusBarController$MyTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/StatusBarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/StatusBarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryBiomarkerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryBiomarkerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryCustomController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryCustomController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryProteolysisController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryProteolysisController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryScoreController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryScoreController$ScoreTableEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryScoreController$ScoreTableEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryScoreController$TooltipClickNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryScoreController$TooltipClickNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryScoreController$XyScatterDataComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryScoreController$XyScatterDataComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryScoreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/SummaryScoreController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/TableControllable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/TableControllable$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/TableControllable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/TableControllable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/TextMinedObjectDetailsPane$MyLabel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/TextMinedObjectDetailsPane$MyLabel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/TextMinedObjectDetailsPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/TextMinedObjectDetailsPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/TextMiningTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/controller/TextMiningTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Article$ArtAuthor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Article$ArtAuthor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectable$ArticleFilterAndDateComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectable$ArticleFilterAndDateComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableBiom$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableBiom$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableBiom$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableBiom$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableBiom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableBiom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableCust$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableCust$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableCust$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableCust$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableCust.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectableCust.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectablePlys$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectablePlys$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectablePlys$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectablePlys$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectablePlys.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleCollectablePlys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleFilterProteinName$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleFilterProteinName$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleFilterProteinName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleFilterProteinName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleQueryable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleQueryable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleQueryableEPmc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleQueryableEPmc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleQueryablePubmed$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleQueryablePubmed$ESearchResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleQueryablePubmed$ESearchResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleQueryablePubmed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ArticleQueryablePubmed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Biomarker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Biomarker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/CustomInputQuery$CustomInputTermBlock$CustomInputTerm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/CustomInputQuery$CustomInputTermBlock$CustomInputTerm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/CustomInputQuery$CustomInputTermBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/CustomInputQuery$CustomInputTermBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/CustomInputQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/CustomInputQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/CustomInputTermBlock$CustomInputTerm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/CustomInputTermBlock$CustomInputTerm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/CustomInputTermBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/CustomInputTermBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Drug.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Drug.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/GeneFamily.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/GeneFamily.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/GoAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/GoAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/IoModel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/IoModel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/IoModel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/IoModel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/IoModel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/IoModel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/IoModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/IoModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/NetworkEdge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/NetworkEdge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/NetworkNodeProtein.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/NetworkNodeProtein.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteaseCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteaseCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteaseFamily.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteaseFamily.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$StringEntryForParsing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein$StringEntryForParsing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/Protein.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinDrugInteractionNetwork.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinDrugInteractionNetwork.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinInteractionNetwork.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinInteractionNetwork.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinName$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinName$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinName$NamePart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinName$NamePart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature$ProteinNameSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature$ProteinNameSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/ProteinNomenclature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/QuerySettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/QuerySettings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/TextMinableInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/TextMinableInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/TextMinedDrug.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/TextMinedDrug.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/TextMinedGeneFamily.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/TextMinedGeneFamily.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/TextMinedObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/TextMinedObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/TextMinedProtein.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/model/TextMinedProtein.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/textmining/manually_added_protein_names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiscOmicsPS/discomics/textmining/manually_added_protein_names.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/discomics/textmining/manually_added_protein_names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/discomics/textmining/manually_added_protein_names.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/controller/ArticleTableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/ArticleTableController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/controller/DetailsArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/DetailsArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/controller/DetailsGeneFamilyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/DetailsGeneFamilyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/controller/DetailsProteinController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/DetailsProteinController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/controller/InputListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/InputListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/controller/ProteinTableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/ProteinTableController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/controller/SummaryBiomarkerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/SummaryBiomarkerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/controller/SummaryCustomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/SummaryCustomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/controller/SummaryProteolysisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/SummaryProteolysisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/controller/SummaryScoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/controller/SummaryScoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/model/ArticleQueryableEPmc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/model/ArticleQueryableEPmc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/model/IoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/model/IoModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/model/Protein.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/model/Protein.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/model/ProteinCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/model/ProteinCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/model/ProteinDrugInteractionNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/model/ProteinDrugInteractionNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/model/ProteinInteractionNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/model/ProteinInteractionNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/model/ProteinName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/model/ProteinName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/model/TextMinedProtein.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/model/TextMinedProtein.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discomics/view/TasksProgressPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/discomics/view/TasksProgressPane.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DiscOmix$Main.coverage" NAME="Main Coverage Results" MODIFIED="1508862219419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>discomix.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DiscoMixFX$Main.coverage" NAME="Main Coverage Results" MODIFIED="1482273180105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>discomix.controller.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/model/NetworkEdge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/NetworkController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3165">
+              <caret line="247" column="8" selection-start-line="247" selection-start-column="8" selection-end-line="247" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/SummaryScoreController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3945">
+              <caret line="285" selection-start-line="285" selection-end-line="287" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/discomics/model/ProteinInteractionNetwork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="173" column="31" selection-start-line="173" selection-start-column="31" selection-end-line="173" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/SummaryProteolysisController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4800">
+              <caret line="346" column="45" selection-start-line="346" selection-start-column="45" selection-end-line="346" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/SummaryCustomController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="113" column="14" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/SummaryBiomarkerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3390">
+              <caret line="248" column="14" selection-start-line="248" selection-start-column="14" selection-end-line="248" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyProgressDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/DrugTableController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#1850#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+              <folding>
+                <marker date="1546458147000" expanded="true" signature="38435:38467" ph="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>allproteasesta</find>
+      <find>get(</find>
+      <find>addText</find>
+      <find>initialiseVi</find>
+      <find>include</find>
+      <find>getText</find>
+      <find>initi</find>
+      <find>nonStringent</find>
+      <find>initialise</find>
+      <find>logWind</find>
+      <find>report</find>
+      <find>filter</find>
+      <find>drugte</find>
+      <find>retrievearticlescustom</find>
+      <find>gethgnc</find>
+      <find>window</find>
+      <find>discomix</find>
+      <find>getproteinsfrom</find>
+      <find>textomics</find>
+      <find>saveTsv</find>
+      <find>pubdate</find>
+      <find>button</find>
+      <find>hgncid</find>
+      <find>progress</find>
+      <find>string</find>
+      <find>hgnc</find>
+      <find>keratin</find>
+      <find>comma</find>
+      <find>jama</find>
+      <find>local</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>new MyScene</replace>
+      <replace>new MyAlert</replace>
+      <replace>this</replace>
+      <replace>custom</replace>
+      <replace>biomarker</replace>
+      <replace>textMinedProtein</replace>
+      <replace>height</replace>
+      <replace>Height</replace>
+      <replace>this.mainController</replace>
+      <replace>Custom</replace>
+      <replace>mainController.getMainTablesController().proteolysisCustomBindingProperty()</replace>
+      <replace>choice3, choice4, choice5</replace>
+      <replace>String</replace>
+      <replace>YVal</replace>
+      <replace>xyAxisChoiceBoxChoices</replace>
+      <replace>nameParts</replace>
+      <replace>name</replace>
+      <replace>proteinNomenclature.addSynonymName()</replace>
+      <replace>textArea, abstractText, name</replace>
+      <replace>,</replace>
+      <replace>summaryCustomStage</replace>
+      <replace>summaryProteolysisStage</replace>
+      <replace>summaryScoreStage</replace>
+      <replace>nonStringentMainStage</replace>
+      <replace>nameId</replace>
+      <replace>pw</replace>
+      <replace>sentenceNoPunctuation</replace>
+      <replace>discomics</replace>
+    </replaceStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/discomics/view/InputListControllerOld.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/view/NetworkController.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/view/summaryControllers/SummaryBiomarkerController.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/view/summaryControllers/SummaryCustomController.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/view/summaryControllers/SummaryProteolysisController.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/view/summaryControllers/SummaryScoreController.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/view/summaryControllers/SummaryScoreControllerOld.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/view/MainControllerOld.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/model/IoModel.java" />
+        <option value="$PROJECT_DIR$/src/discomics/view/MainMenuBar.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/view/MainController.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/model/ArticleQueryablePubmed.java" />
+        <option value="$PROJECT_DIR$/src/discomics/view/tables/ProteinTableController.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/NetworkController.java" />
+        <option value="$PROJECT_DIR$/src/discomics/model/ArticleQueryableEPmc.java" />
+        <option value="$PROJECT_DIR$/src/discomics/model/Article.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/DetailsProteinController.java" />
+        <option value="$PROJECT_DIR$/src/discomics/model/NetworkEdge.java" />
+        <option value="$PROJECT_DIR$/src/discomics/view/MainSettingsController.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/MainSettingsController.java" />
+        <option value="$PROJECT_DIR$/src/discomics/model/ArticleCollectable.java" />
+        <option value="$PROJECT_DIR$/src/discomics/model/ArticleCollectableBiom.java" />
+        <option value="$PROJECT_DIR$/src/discomics/model/ArticleCollectableCust.java" />
+        <option value="$PROJECT_DIR$/src/discomics/model/ArticleCollectablePlys.java" />
+        <option value="$PROJECT_DIR$/src/discomics/model/TextMinedObject.java" />
+        <option value="$PROJECT_DIR$/src/discomics/model/TextMinedDrug.java" />
+        <option value="$PROJECT_DIR$/src/discomics/view/MainControllerSettings.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/MainControllerSettings.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/src/discomics/view/TasksProgress.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/MyMainTaskProgressDialog.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/MyProgressDialog.java" />
+        <option value="$PROJECT_DIR$/src/discomics/model/Protein.java" />
+        <option value="$PROJECT_DIR$/src/discomics/model/GeneFamily.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/MainTablesController.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/ProteinTableController.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/TasksProgressPane.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/ArticleTableController.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/MainControllerNonStringent.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/TextMiningTask.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/MyAlertContamination.java" />
+        <option value="$PROJECT_DIR$/src/discomics/model/ProteinName.java" />
+        <option value="$PROJECT_DIR$/src/discomics/Main.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/InputListController.java" />
+        <option value="$PROJECT_DIR$/src/discomics/view/TasksProgressPane.fxml" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/SummaryProteolysisController.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/SummaryCustomController.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/SummaryBiomarkerController.java" />
+        <option value="$PROJECT_DIR$/src/discomics/controller/SummaryScoreController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectId" id="2x83GGNhIzgv6fpt8kOsWkyuG2d" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>DefaultFileTemplate</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="DiscOmicsPS_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="discomics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="discomics" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="discomics" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="discomics" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiscOmicsPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscOmix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="discomics" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jt3215/Library/CloudStorage/Dropbox/DiscOmix&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.37356323&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="discomics.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/discomix/view" />
+      <recent name="C:\Users\admin_desktop\Dropbox\DiscOmix\src\discomix\view\detailsPane" />
+      <recent name="$PROJECT_DIR$/resources/discomix/textmining" />
+      <recent name="C:\Users\admin_desktop\Dropbox\DiscOmix\resources\discomix\greek" />
+      <recent name="C:\Users\Jure\Desktop\DiscOmix\src\discomix\view\summaryControllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin_desktop\Dropbox\DiscOmix\resources\discomix\textmining" />
+      <recent name="$PROJECT_DIR$/src/discomix/view/summaryControllers" />
+      <recent name="C:\Users\Jure\Desktop\DiscOmix\src\discomix\view\detailsPane" />
+      <recent name="C:\Users\Marija\Desktop\DiscoMixFX\src\discomix\view\tables" />
+      <recent name="C:\Users\Marija\Desktop\DiscoMixFX\src\discomix\view" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="discomix" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="discomix.model" />
+      <recent name="discomix.application" />
+      <recent name="discomix.controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HEIGHT" value="0" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="ms-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="discomics.Main" />
+      <module name="DiscOmicsPS" />
+      <option name="VM_PARAMETERS" value="-XX:+UseG1GC -XX:+UseStringDeduplication --module-path $USER_HOME$/Downloads/javafx-sdk-21.0.7/lib --add-modules=javafx.controls,javafx.fxml" />
+      <RunnerSettings RunnerId="JProfiler" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="DiscoMixFX" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+    </task>
+    <task id="LOCAL-00001" summary="introduced global settings dialog specifying maximum articles to be retrieved and number of threads for the search">
+      <created>1531745822330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531745822330</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed input control on gene names or identifiers (only alphanumeric characters allowed)">
+      <created>1533127928000</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533127928000</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed input control on gene names or identifiers v2 (only alphanumeric characters allowed)">
+      <created>1533209791372</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533209791373</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated progress bar after main task initiation">
+      <created>1535472637530</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535472637530</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1. Introduced connective tissue contamination dialog box&#10;2. Fixed illegal gene name dialog box rule to allow for hyphens">
+      <created>1535621372765</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535621372765</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1302000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <layout>
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.14962727" />
+      <window_info id="Favorites" order="5" weight="0.3298887" />
+      <window_info id="Structure" order="6" weight="0.25" />
+      <window_info id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32599726" />
+      <window_info anchor="bottom" id="Event Log" order="1" weight="0.2696011" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Application Servers" order="3" />
+      <window_info anchor="bottom" id="Profiler" order="4" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.27920562" />
+      <window_info anchor="bottom" id="Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Problems" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.27946916" />
+      <window_info anchor="bottom" x="0" y="368" width="1440" height="363" id="Run" order="10" weight="0.2509047" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.24950495" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.32737276" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" visible="true" weight="0.3298077" />
+      <window_info anchor="bottom" id="JProfiler" order="16" weight="0.4002404" />
+      <window_info anchor="right" id="Designer" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32761088" />
+      <window_info anchor="right" id="JetGradle" order="5" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.24920128" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Properties" order="8" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.24964234" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.096875" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.13235295" />
+      <window_info id="Favorites" order="5" weight="0.3298887" />
+      <window_info id="Structure" order="6" weight="0.25" />
+      <window_info id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32599726" />
+      <window_info anchor="bottom" id="Event Log" order="1" weight="0.2696011" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Application Servers" order="3" />
+      <window_info anchor="bottom" id="Profiler" order="4" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.28749084" />
+      <window_info anchor="bottom" id="Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" visible="true" weight="0.28456473" />
+      <window_info anchor="bottom" x="0" y="368" width="1440" height="363" id="Run" order="10" weight="0.23408924" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.2517194" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.32737276" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" visible="true" weight="0.3298077" />
+      <window_info anchor="bottom" id="JProfiler" order="16" weight="0.4002404" />
+      <window_info anchor="right" id="Designer" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32891247" />
+      <window_info anchor="right" id="JetGradle" order="5" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.24964234" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Properties" order="8" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.24964234" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.096875" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="introduced global settings dialog specifying maximum articles to be retrieved and number of threads for the search" />
+    <MESSAGE value="fixed input control on gene names or identifiers (only alphanumeric characters allowed)" />
+    <MESSAGE value="fixed input control on gene names or identifiers v2 (only alphanumeric characters allowed)" />
+    <MESSAGE value="updated progress bar after main task initiation" />
+    <MESSAGE value="1. Introduced connective tissue contamination dialog box&#10;2. Fixed illegal gene name dialog box rule to allow for hyphens" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Introduced connective tissue contamination dialog box&#10;2. Fixed illegal gene name dialog box rule to allow for hyphens" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/discomics/model/Protein.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/TextMiningTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyAlert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/model/ProteinName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerDrugMining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainControllerNonStringent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="114" column="130" selection-start-line="114" selection-start-column="130" selection-end-line="114" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/InputListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="687" column="13" selection-start-line="687" selection-start-column="13" selection-end-line="687" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/model/IoModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="402" selection-start-line="402" selection-end-line="402" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/model/ProteinDrugInteractionNetwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/model/NetworkEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/NetworkController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3165">
+          <caret line="247" column="8" selection-start-line="247" selection-start-column="8" selection-end-line="247" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/SummaryScoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3945">
+          <caret line="285" selection-start-line="285" selection-end-line="287" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/SummaryProteolysisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4800">
+          <caret line="346" column="45" selection-start-line="346" selection-start-column="45" selection-end-line="346" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/SummaryCustomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="113" column="14" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/SummaryBiomarkerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3390">
+          <caret line="248" column="14" selection-start-line="248" selection-start-column="14" selection-end-line="248" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MyProgressDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/DrugTableController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <marker date="1546458147000" expanded="true" signature="38435:38467" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discomics/model/ProteinInteractionNetwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="173" column="31" selection-start-line="173" selection-start-column="31" selection-end-line="173" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>DiscOmicsPS:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29310346" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.16862038" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.16862038" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.16862038" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DiscOmicsPS</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29310346" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.apache.httpcomponents:httpclient:4.5.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29310346" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

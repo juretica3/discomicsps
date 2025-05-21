@@ -1,0 +1,14 @@
+Force protein approved name to the term defined here (separated with vertical bar ‘|’ will be considered)
+CALCA|calcitonin 1
+ANXA1|annexin 1
+ANXA2|annexin 2
+ANXA3|annexin 3
+ANXA4|annexin 4
+ANXA5|annexin 5
+ANXA6|annexin 6
+ANXA7|annexin 7
+ANXA8|annexin 8
+ANXA9|annexin 9
+ANXA10|annexin 10
+ANXA11|annexin 11
+ANXA13|annexin 13
